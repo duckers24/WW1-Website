@@ -1,0 +1,38 @@
+/*My CSS*/
+
+.Header {Background-color: #FFF; text-align: center; font-size: 24;}
+.TableHeader {font-size: 30;}
+.Table {border: solid; border-top: solid; border-bottom: solid; border-left: solid; border-right: solid;}
+.TableHeading {color: Red;}
+.Body {font-family: sans-serif; background-color: #450}
+.Map {padding: 5px 0px;}
+.Container {margin: 0px auto; width: 800px; height: 810px; background-color: #999}
+.Picture {width: 800px; padding: 5px 0px;}
+.Text {margin: 0px 10px;}
+
+/*Menu Bar CSS*/
+
+/*Initialize*/
+#menu, ul#menu ul.sub-menu {padding:0px auto; margin: 10px auto;}
+#menu li, ul#menu ul.sub-menu li {list-style-type: none; display: inline-block;}
+/*Link Appearance*/
+#menu li a, ul#menu li ul.sub-menu li a {text-decoration: none; color: #fff; background: #000; padding: 5px; display:inline-block;}
+/*Make the parent of sub-menu relative*/
+#menu li {position: relative;}
+/*sub menu*/
+#menu li ul.sub-menu {display:none; position: absolute; top: 30px; left: 0; width: 100px;}
+#menu li:hover ul.sub-menu {display:block;}
+
+/*Picture Mouse Over*/
+.Picture2 {width: 50%; height: 50%;}
+.Picture2:hover {width: 100%; height: 100%;}
+
+/*Memorial Table*/
+.MemorialTable {width: 800px;}
+.MemorialTableLeft {width: 250px;}
+.MemorialTableCenter {width: 250px;}
+.MemorialTableRight {width: 250px;}
+.MemorialTableMargin {width: 25px;}
+.MemorialTableGap {height: 25px;}
+.MemorialTableMap {width:800px;}
+.Wide {width: 800px;}
