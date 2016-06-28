@@ -1,0 +1,92 @@
+<ul id="menu">
+    <li>
+        <span title="Go Back to the Homepage"><a href="index.php">Home</a></span>
+    </li>
+    <li><a href="During_War.php">During the War</a>
+        <ul class="sub-menu">
+            <li>
+                <li><span title="All the soldiers that died in 1914"><a href='year.php?year=1914'>1914</a></span></li>
+            </li>
+            <li>
+                <li><span title="All the soldiers that died in 1915"><a href='year.php?year=1915'>1915</a></span></li>
+            </li>
+            <li>
+                <li><span title="All the soldiers that died in 1916"><a href='year.php?year=1916'>1916</a></span></li>
+            </li>
+            <li>
+                <li><span title="All the soldiers that died in 1917"><a href='year.php?year=1917'>1917</a></span></li>
+            </li>
+            <li>
+                <li><span title="All the soldiers that died in 1918"><a href='year.php?year=1918'>1918</a></span></li>
+            </li>
+        </ul>
+    </li>     
+    <li><a href="After_War.php">After the War</a>
+        <ul class="sub-menu">
+            <li>
+                <li><span title="All the soldiers that died in 1919"><a href='year.php?year=1919'>1919</a></span></li>
+            </li>
+            <li>
+                <li><span title="All the soldiers that died in 1920"><a href='year.php?year=1920'>1920</a></span></li>
+            </li>
+            <li>
+                <li><span title="All the soldiers that died in 1928"><a href='year.php?year=1928'>1928</a></span></li>
+            </li>
+        </ul>
+    </li>
+        <li><a href="Memorial.php">Memorial</a>
+        <ul class="sub-menu">
+            <li>
+                <li><span title="Amberly War Memorial"><a href='MemorialPage.php?Memorial=Amberley'>Amberley War Memorial</a></span></li>
+            </li>
+            <li>
+                <li><span title="Avening War Memorial"><a href='MemorialPage.php?Memorial=Avening'>Avening Memorial</a></span></li>
+            </li>
+            <li>
+                <li><span title="Forest Green Chapel"><a href='MemorialPage.php?Memorial=Forest'>Forest Green Chapel</a></span></li>
+            </li>
+            <li>
+                <li><span title="Horsley War Memorial"><a href='MemorialPage.php?Memorial=Horsley'>Horsley War Memorial</a></span></li>
+            </li>
+            <li>
+                <li><span title="Minchinhampton War Memorial"><a href='MemorialPage.php?Memorial=Minchinhampton'>Minchinhampton War Memorial</a></span></li>
+            </li>
+            <li>
+                <li><span title="Nympsfield War Memorial"><a href='MemorialPage.php?Memorial=Nympsfield'>Nympsfield War Memorial</a></span></li>
+            </li>
+            <li>
+                <li><span title="Rodborough Roll of Honour"><a href='MemorialPage.php?Memorial=Rodborough'>Rodborough Roll of Honour</a></span></li>
+            </li>
+            <li>
+                <li><span title="Shortwood"><a href='MemorialPage.php?Memorial=Shortwood'>Shortwood Chapel</a></span></li>
+            </li>
+            <li>
+                <li><span title="Gloters Cenotaph"><a href='MemorialPage.php?Memorial=Gloters'>Gloters Cenotaph</a></span></li>
+            </li>
+            <li>
+                <li><span title="Woodchester Wayside Corss"><a href='MemorialPage.php?Memorial=Woodchester'>Woodchester Wayside Cross</a></span></li>
+            </li>
+        </ul>
+    </li>
+    <li><a href="Pictures.php">Pictures</a>
+        <ul class="sub-menu">
+            <li>
+                <li><span title="All the pictures from the Stroud News and Journal"><a href='Pictures.php?Picture=StroudNews'>Stroud News and Journal</a></span></li>
+            </li>
+            <li>
+                <li><span title="All the soldiers that died in 1920"><a href='Pictures.php?Picture=NJThornicroft'>N J Thornicroft's Book</a></span></li>
+            </li>
+            <li>
+                <li><span title="All the soldiers that died in 1928"><a href='Pictures.php?Picture=TheTimes'>The Times</a></span></li>
+            </li>
+        </ul>
+    </li>
+    <li><a href="Events.php">Events</a>
+    <li>
+        <div class="sub-menu">
+		<form method="get" action="search_results.php">
+            <input type="text" name="search" size="21" maxlength="120">
+            <input type="submit" value="search">
+		</form>
+    </li>
+</ul>
