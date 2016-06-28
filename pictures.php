@@ -4,7 +4,7 @@
 <html>
 <head>
 <Title>Pictures</Title>
-    <link href="Style.css" type = "text/css" rel="stylesheet"/>
+    <link href="includes/style.css" type = "text/css" rel="stylesheet"/>
     <div class="Header"><h1>Pictures</h1></div>
 </head>
 <body>
