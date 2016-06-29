@@ -87,7 +87,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>After the War</h1>
-                <p class="lead">Please select a year to see the soldiers that lost their lives</p>
+                <p class="lead">Please select a year to see the soldiers that lost their lives after the war</p>
                 <Table class="table">
                     <tr>
                         <td><span title="View all of the soldiers that died in 1919"><a href='year.php?year=1919'>
