@@ -91,6 +91,11 @@
                 <p class="lead">All of the inforamtion about this soldier</p>
                 <table class="table">
                     <?php
+                    // Request the text of soldiers
+    $result = @mysql_query('SELECT Sequence, First_name, Last_name, Number, Rank, Regiment, Awards, Year_born, How_died, Where_died, Where_buried, Where_commemorated, Birthplace FROM soldiers WHERE Sequence = "'.$Sequence.'" ORDER by Last_name');
+    if (!$result) {
+        exit('<p>Error performing query: ' . mysql_error() . '</p>');
+    }
                     while ($row = mysql_fetch_array($result))
                     {
                         $Photo=$row['Sequence'];
@@ -104,7 +109,7 @@
                         if (file_exists($PHPPhotoPath)) {
                             echo        '<img src="'.$RealPhotoPath.'"/>';
                         } else {
-                            echo        '<img src="Graphics/SoldierMemorial/Head.jpg">';
+                            echo        '<img src="graphics/soldier_Memorial/Head.jpg">';
                         }
                         echo '<tr>';
                         echo '<td>'. $row['First_name'] .'</td>';
