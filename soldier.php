@@ -82,7 +82,7 @@
             <div class="col-lg-12 text-center">
                 <?php
         while ($Name = mysql_fetch_array($result))
-            {
+        {
             echo '<h1>'. $Name['First_name'] . " " . $Name['Last_name'] .'</h1>';
         }
                 ?>
