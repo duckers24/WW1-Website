@@ -133,10 +133,6 @@
                     }
                     ?>
                 </table>
-                <?php
-                $Sequence2 = $Sequence + 1;
-                echo '<li><a href=soldier.php?Sequence='. $row['Sequence2'] .  '>Next Soldier</a>';
-                ?>
             </div>
         </div>
         <!-- /.row -->
