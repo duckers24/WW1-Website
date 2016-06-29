@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<?php
+include 'includes/db.inc.php'
+?>
+<?php
+$Sequence=$_GET['Sequence']
+?>
 <html lang="en">
 
 <head>
@@ -9,18 +15,21 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bare - Start Bootstrap Template</title>
-
+    <?php
+        // Request the text of soldiers
+    $result = @mysql_query('SELECT Sequence, First_name, Last_name, Number, Rank, Regiment, Awards, Year_born, How_died, Where_died, Where_buried, Where_commemorated, Birthplace FROM soldiers WHERE Sequence = "'.$Sequence.'" ORDER by Last_name');
+    if (!$result) {
+        exit('<p>Error performing query: ' . mysql_error() . '</p>');
+    }
+    while ($Name = mysql_fetch_array($result))
+        {
+            echo '<title>'. $Name['First_name'] . " " . $Name['Last_name'] .'</title>';
+        }
+                ?>
+    
     <!-- Bootstrap Core CSS -->
     <link href="includes/css/bootstrap.min.css" rel="stylesheet">
-    
-    <?php
-    $Sequence=$_GET['Sequence']
-        ?>
-    <?php
-    include 'includes/db.inc.php'
-    ?>
-    
+
     <!-- Custom CSS -->
     <style>
     body {
