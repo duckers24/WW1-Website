@@ -4,7 +4,7 @@
 <html>
 <head>
 <Title>1914</title>
-    <link href="Style.css" type = "text/css" rel="stylesheet"/>
+    <link href="includes/style.css" type = "text/css" rel="stylesheet"/>
 </head>
 <body class="Body">
     <div class="Container">

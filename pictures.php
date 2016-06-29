@@ -4,10 +4,10 @@
 <html>
 <head>
 <Title>Pictures</Title>
-    <link href="Style.css" type = "text/css" rel="stylesheet"/>
-    <div class="Header"><h1>Pictures</h1></div>
+    <link href="includes/style.css" type = "text/css" rel="stylesheet"/>
 </head>
 <body>
+    <div class="Header"><h1>Pictures</h1></div>
     <?php
     include 'includes/year_menu.txt'            
     ?>
