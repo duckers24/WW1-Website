@@ -16,7 +16,7 @@ $Memorial=$_GET['Memorial']
     if ($Memorial == "") {
         echo '<title>Memorials</title>';
         } elseif ($Memorial == "Amberley") {
-        echo '<title">Amberley War Memorial</title>';
+        echo '<title>Amberley War Memorial</title>';
         } elseif ($Memorial == "Avening") {
         echo '<title>Avening Memorial</title>';
         } elseif ($Memorial == "Forest") {
@@ -109,7 +109,7 @@ $Memorial=$_GET['Memorial']
                 if ($Memorial == "") {
                     echo '<h1>Memorials</h1>';
                 } elseif ($Memorial == "Amberley") {
-                    echo '<h1">Amberley War Memorial</h1>';
+                    echo '<h1>Amberley War Memorial</h1>';
                 } elseif ($Memorial == "Avening") {
                     echo '<h1>Avening Memorial</h1>';
                 } elseif ($Memorial == "Forest") {
