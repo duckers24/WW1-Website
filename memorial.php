@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bare - Start Bootstrap Template</title>
+    <title>Memorial</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -76,7 +76,7 @@
 
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1>A Bootstrap Starter Template</h1>
+                <h1>Memorial</h1>
                 <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
                 <ul class="list-unstyled">
                     <li>Bootstrap v3.3.6</li>
