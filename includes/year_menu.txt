@@ -68,7 +68,7 @@
             </li>
         </ul>
     </li>
-    <li><a href="Pictures.php">Pictures</a>
+    <li><a href="pictures.php">Pictures</a>
         <ul class="sub-menu">
             <li>
                 <li><span title="All the pictures from the Stroud News and Journal"><a href='pictures.php?Picture=StroudNews'>Stroud News and Journal</a></span></li>
