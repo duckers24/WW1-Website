@@ -1,28 +1,4 @@
-<a class="navbar-brand" href="index.php">Home</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="during_War.php">During War</a>
-                    </li>
-                    <li>
-                        <a href="after_War.php">After War</a>
-                    </li>
-                    <li>
-                        <a href="memorial.php">Memorial</a>
-                    </li>
-                    <li>
-                        <a href="pictures.php">Pictures</a>
-                    </li>
-                    <li>
-                        <a href="events.php">Events</a>
-                    </li><html>
-<head>
-    <Title>Memorials</title>
-    <link href="includes/style.css" type = "text/css" rel="stylesheet"/>
-</head>
-<body class="Body"<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
