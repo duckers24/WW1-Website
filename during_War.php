@@ -76,7 +76,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>During the War</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
+                <p class="lead">Please select a year to see the soldiers that lost their lives</p>
                 <ul class="list-unstyled">
                     <li>Bootstrap v3.3.6</li>
                     <li>jQuery v1.11.1</li>
