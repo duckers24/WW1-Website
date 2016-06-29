@@ -16,7 +16,12 @@ $year=$_GET['year']
 
     <!-- Bootstrap Core CSS -->
     <link href="includes/css/bootstrap.min.css" rel="stylesheet">
-
+    
+    <!-- Include for the database connection -->
+    <?php
+    include 'includes/db.inc.php'
+    ?>
+    
     <!-- Custom CSS -->
     <style>
     body {
