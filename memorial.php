@@ -77,11 +77,57 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>Memorial</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
-                <ul class="list-unstyled">
-                    <li>Bootstrap v3.3.6</li>
-                    <li>jQuery v1.11.1</li>
-                </ul>
+                <p class="lead">These are all of the memorials within the local area</p>
+                <Table class="table">
+            <tr>
+                <td><span title="All the information about the Amberley Memorial">
+                    <a href='memorial_Page.php?Memorial=Amberley'>
+                        <img src="graphics/memorial_Button/AmberleySmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Avening Memorial">
+                    <a href='memorial_Page.php?Memorial=Avening'>
+                        <img src="graphics/memorial_Button/AveningSmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Forest Green Memorial">
+                    <a href='memorial_Page.php?Memorial=Forest'>
+                        <img src="graphics/memorial_Button/ForestGreenSmall.jpg"></a></span></td>    
+            </tr>
+            <tr></tr>
+            <tr>
+                <td><span title="All the information about the Horsley Memorial">
+                    <a href='memorial_Page.php?Memorial=Horsley'>
+                        <img src="graphics/memorial_Button/HorsleySmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Minchinhampton Memorial">
+                    <a href='memorial_Page.php?Memorial=Minchinhampton'>
+                        <img src="graphics/memorial_Button/MinchinhamptonSmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Nympsfield Memorial">
+                    <a href='memorial_Page.php?Memorial=Nympsfield'>
+                        <img src="graphics/memorial_Button/NympsfieldSmall.jpg"></a></span></td>    
+            </tr>
+            <tr></tr>
+            <tr>
+                <td><span title="All the information about the Rodborough Memorial">
+                    <a href='memorial_Page.php?Memorial=Rodborough'>
+                        <img src="graphics/memorial_Button/RodboroughSmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Shortwood Memorial">
+                    <a href='memorial_Page.php?Memorial=Shortwood'>
+                        <img src="graphics/memorial_Button/ShortwoodSmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Gloters Memorial">
+                    <a href='memorial_Page.php?Memorial=Gloters'>
+                        <img src="graphics/memorial_Button/GlotersSmall.jpg"></a></span></td>    
+            </tr>
+            <tr></tr>
+            <tr>
+                <td><span title="All the information about the Woodchester Memorial">
+                    <a href='memorial_Page.php?Memorial=Wodchester'>
+                        <img src="graphics/memorial_Button/WoodchesterSmall.jpg"></a></span></td>
+            </tr>
+            <tr></tr>
+        </Table>
             </div>
         </div>
         <!-- /.row -->
