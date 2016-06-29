@@ -72,11 +72,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>Home</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
-                <ul class="list-unstyled">
-                    <li>Bootstrap v3.3.6</li>
-                    <li>jQuery v1.11.1</li>
-                </ul>
+                <p class="lead">A website with incformation about the soldiers that died during WW1</p>
             </div>
         </div>
         <!-- /.row -->
