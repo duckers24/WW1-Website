@@ -77,10 +77,28 @@
             <div class="col-lg-12 text-center">
                 <h1>During the War</h1>
                 <p class="lead">Please select a year to see the soldiers that lost their lives</p>
-                <ul class="list-unstyled">
-                    <li>Bootstrap v3.3.6</li>
-                    <li>jQuery v1.11.1</li>
-                </ul>
+                <Table class="MemorialTable">
+            <tr>
+                <td class="MemorialTableLeft"><span title="See all of the soldiers that lost their lives in 1914">
+                    <a href='year.php?year=1914'><img src="graphics/during_War/1914Small.jpg"></a></span></td>
+                <td class="MemorialTableMargin"></td>
+                <td class="MemorialTableCenter"><span title="See all of the soldiers that lost their lives in 1915">
+                    <a href='year.php?year=1915'><img src="graphics/during_War/1915Small.jpg"></a></span></td>
+                <td class="MemorialTableMargin"></td>
+                <td class="MemorialTableRight"><span title="See all of the soldiers that lost their lives in 1916">
+                    <a href='year.php?year=1916'><img src="graphics/during_War/1916Small.jpg"></a></span></td>    
+            </tr>
+            <tr class="MemorialTableGap"></tr>
+            <tr>
+                <td class="MemorialTableLeft"><span title="See all of the soldiers that lost their lives in 1917">
+                    <a href='year.php?year=1917'><img src="graphics/during_War/1917Small.jpg"></a></span></td>
+                <td class="MemorialTableMargin"></td>
+                <td class="MemorialTableCenter"><span title="See all of the soldiers that lost their lives in 1918">
+                    <a href='year.php?year=1918'><img src="graphics/during_War/1918Small.jpg"></a></span></td>
+                <td class="MemorialTableMargin"></td>    
+            </tr>
+            <tr class="MemorialTableGap"></tr>
+        </Table>
             </div>
         </div>
         <!-- /.row -->
