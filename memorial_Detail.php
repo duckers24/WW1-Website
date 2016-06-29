@@ -1,6 +1,9 @@
 <?php
 $Memorial=$_GET['Memorial']
 ?>
+<?php
+include 'includes/db.inc.php'
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -141,7 +144,21 @@ $Memorial=$_GET['Memorial']
                 }
                 ?>
                 <p class="lead">All of the inforamtion about this memorial</p>
+                <?php
+                // Request the text of soldiers
+                $result = @mysql_query('SELECT Sequence, First_name, Last_name, Rank FROM soldiers WHERE Also_remembered LIKE "%'.$Memorial.'%" ORDER by Last_name');
+                if (!$result) {
+                    exit('<p>Error performing query: ' . mysql_error() . '</p>');
+                }
+                ?>
                 <table class="table">
+                    <tr>
+                        <td>Image</td>
+                        <td>Rank</td>
+                        <td>Fisrt name</td>
+                        <td>Last Name</td>
+                        <td>More Information</td>
+                    </tr>
                     <?php
                     while ($row = mysql_fetch_array($result))
                     {
@@ -149,22 +166,20 @@ $Memorial=$_GET['Memorial']
                         $PHPPath='/Users/william/Documents/ww1 webserver/Graphics/SoldierMemorial/';
                         $DataType='.jpg';
                         $ImagePath='/Graphics/SoldierMemorial/';
-                        $PHPPhotoPath= $PHPPath.$Photo.$DataType;
                         $RealPhotoPath = $ImagePath.$Photo.$DataType;
-                        echo '<tr>';
-                        echo '<td>';
+                        echo		'<tr>';
+                        echo        '<td>';
                         if (file_exists($PHPPhotoPath)) {
-                            echo '<img src="'.$RealPhotoPath.'"/>';
-                        } else {
-                            echo        '<img src="Graphics/SoldierMemorial/Head.jpg">';
+                            echo        '<img src="'.$RealPhotoPath.'"/>';
+                        } else { 
+                            echo        '<img src="Graphics/SoldierMemorial/Head.jpg">'; 
                         }
-                        echo '</td>';
-                        echo '<td>'. $row['Rank'] .'</td>';
-                        echo '<td>'. $row['First_name'] .'</td>';
-                        echo '<td>'. $row['Last_name'] .'</td>';
-                        echo '<td><span title="More information about this soldier"><a href=soldier.php?Sequence='
-                            . $row['Sequence'] .  '>More Information</a></span</td>';
-                        echo '</tr>';
+                        echo        '</td>';
+                        echo	    '<td>'. $row['Rank'] .'</td>';
+                        echo	    '<td>'. $row['First_name'] .'</td>';
+                        echo	    '<td>'. $row['Last_name'] .'</td>';
+                        echo	    '<td><span title="More information about this soldier"><a href=soldier.php?Sequence='. $row['Sequence'] .  '>More Information</a></span</td>';
+                        echo		'</tr>';  
                     }
                     ?>
                 </table>
