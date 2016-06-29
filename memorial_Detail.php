@@ -13,30 +13,30 @@ $Memorial=$_GET['Memorial']
     <meta name="author" content="">
     
     <?php
-        if ($Memorial == "") {
-        echo '<h1 class="Body">Memorials</h1>';
+    if ($Memorial == "") {
+        echo '<title>Memorials</title>';
         } elseif ($Memorial == "Amberley") {
-        echo '<h1 class="Body">Amberley War Memorial</h1>';
+        echo '<title">Amberley War Memorial</title>';
         } elseif ($Memorial == "Avening") {
-        echo '<h1 class="Body">Avening Memorial</h1>';
+        echo '<title>Avening Memorial</title>';
         } elseif ($Memorial == "Forest") {
-        echo '<h1 class="Body">Forest Green Chapel</h1>';
+        echo '<title>Forest Green Chapel</title>';
         } elseif ($Memorial == "Horsley") {
-        echo '<h1 class="Body">Horsley War Memorial</h1>';
+        echo '<title>Horsley War Memorial</title>';
         } elseif ($Memorial == "Minchinhampton") {
-        echo '<h1 class="Body">Minchinhampton War Memorial</h1>';
+        echo '<title>Minchinhampton War Memorial</title>';
         } elseif ($Memorial == "Nympsfield") { 
-        echo '<h1 class="Body">Nympsfield War Memorial</h1>';
+        echo '<title>Nympsfield War Memorial</title>';
         } elseif ($Memorial == "Rodborough") {
-        echo '<h1 class="Body">Rodborough Roll of Honour</h1>';
+        echo '<title>Rodborough Roll of Honour</title>';
         } elseif ($Memorial == "Shortwood") {
-        echo '<h1 class="Body">Shortwood Chapel</h1>';
+        echo '<title>Shortwood Chapel</title>';
         } elseif ($Memorial == "Gloters") {
-        echo '<h1 class="Body">Gloters Cenotaph</h1>';
+        echo '<title>Gloters Cenotaph</title>';
         } elseif ($Memorial == "Woodchester") {
-        echo '<h1 class="Body">Woodchester Wayside Cross</h1>';
-        }
-        ?>
+        echo '<title>Woodchester Wayside Cross</title>';
+    }
+    ?>
     
     <title>Bare - Start Bootstrap Template</title>
 
@@ -105,8 +105,32 @@ $Memorial=$_GET['Memorial']
 
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1>A Bootstrap Starter Template</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
+                <?php
+                if ($Memorial == "") {
+                    echo '<h1>Memorials</h1>';
+                } elseif ($Memorial == "Amberley") {
+                    echo '<h1">Amberley War Memorial</h1>';
+                } elseif ($Memorial == "Avening") {
+                    echo '<h1>Avening Memorial</h1>';
+                } elseif ($Memorial == "Forest") {
+                    echo '<h1>Forest Green Chapel</h1>';
+                } elseif ($Memorial == "Horsley") {
+                    echo '<h1>Horsley War Memorial</h1>';
+                } elseif ($Memorial == "Minchinhampton") {
+                    echo '<h1>Minchinhampton War Memorial</h1>';
+                } elseif ($Memorial == "Nympsfield") { 
+                    echo '<h1>Nympsfield War Memorial</h1>';
+                } elseif ($Memorial == "Rodborough") {
+                    echo '<h1>Rodborough Roll of Honour</h1>';
+                } elseif ($Memorial == "Shortwood") {
+                    echo '<h1>Shortwood Chapel</h1>';
+                } elseif ($Memorial == "Gloters") {
+                    echo '<h1>Gloters Cenotaph</h1>';
+                } elseif ($Memorial == "Woodchester") {
+                    echo '<h1>Woodchester Wayside Cross</h1>';
+                }
+                ?>
+                <p class="lead">All of the inforamtion about this memorial</p>
                 <table class="table">
                     <?php
                     while ($row = mysql_fetch_array($result))
