@@ -12,7 +12,9 @@ $year=$_GET['year']
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bare - Start Bootstrap Template</title>
+    <?php
+    echo '<title>'. $year .'</title>';
+    ?>
 
     <!-- Bootstrap Core CSS -->
     <link href="includes/css/bootstrap.min.css" rel="stylesheet">
@@ -84,8 +86,10 @@ $year=$_GET['year']
 
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1>A Bootstrap Starter Template</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
+                <?php
+                echo '<h1>'. $year .'</h1>';
+                ?>
+                <p class="lead">The table below shows all of the soldiers that lost their lives during this year</p>
                 <?php
                 // Request the text of soldiers
                 $result = @mysql_query('SELECT Sequence, First_name, Last_name FROM soldiers WHERE Year_of_death = "'
@@ -94,7 +98,7 @@ $year=$_GET['year']
                     exit('<p>Error performing query: ' . mysql_error() . '</p>');
                 }
                 ?>
-                <table>
+                <table class="table">
                     <tr>
                         <td>Fisrt name</td><td>Last Name</td><td>Link to Soldier</td>
                     </tr>
