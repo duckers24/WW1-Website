@@ -1,6 +1,4 @@
-    <?php
-    $Memorial=$_GET['Memorial']
-    ?>
+
 <html>
 <head>
     <Title>Home</title>
@@ -42,14 +40,7 @@
         include 'includes/db.inc.php'
     ?>
         
-    <?php
-      // Request the text of soldiers
-  $result = @mysql_query('SELECT Sequence, First_name, Last_name, Rank FROM soldiers WHERE Also_remembered LIKE "%'.$Memorial.'%" ORDER by Last_name');
-  if (!$result) {
-    exit('<p>Error performing query: ' .
-        mysql_error() . '</p>');
-  }
-    ?>
+    
     <table class="Table">
     <?php
         while ($row = mysql_fetch_array($result))
@@ -110,7 +101,10 @@
 </body>
 </html>
     
-    <!DOCTYPE html>
+<?php
+$Memorial=$_GET['Memorial']
+?>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -121,6 +115,18 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <?php
+    // Request the text of soldiers
+    $result = @mysql_query('SELECT Sequence, First_name, Last_name, Rank FROM soldiers WHERE Also_remembered LIKE "%'.$Memorial.'%" ORDER by Last_name');
+    if (!$result) {
+    exit('<p>Error performing query: ' . mysql_error() . '</p>');
+    }
+    while ($Name = mysql_fetch_array($result))
+    {
+        echo '<title>'. $Name['First_name'] . " " . $Name['Last_name'] .'</title>';
+    }
+    ?>
+    
     <title>Bare - Start Bootstrap Template</title>
 
     <!-- Bootstrap Core CSS -->
