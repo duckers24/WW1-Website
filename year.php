@@ -84,8 +84,10 @@ $year=$_GET['year']
 
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1>A Bootstrap Starter Template</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
+                <?php
+                echo '<h1>'. $year .'</h1>';
+                ?>
+                <p class="lead">The table below shows all of the soldiers that lost their lives during this year</p>
                 <?php
                 // Request the text of soldiers
                 $result = @mysql_query('SELECT Sequence, First_name, Last_name FROM soldiers WHERE Year_of_death = "'
