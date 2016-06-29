@@ -12,7 +12,9 @@ $year=$_GET['year']
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bare - Start Bootstrap Template</title>
+    <?php
+    echo '<title>'. $year .'</title>';
+    ?>
 
     <!-- Bootstrap Core CSS -->
     <link href="includes/css/bootstrap.min.css" rel="stylesheet">
