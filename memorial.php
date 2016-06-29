@@ -77,11 +77,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>Memorial</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
-                <ul class="list-unstyled">
-                    <li>Bootstrap v3.3.6</li>
-                    <li>jQuery v1.11.1</li>
-                </ul>
+                <p class="lead">These are all of the memorials within the local area</p>
             </div>
         </div>
         <!-- /.row -->
