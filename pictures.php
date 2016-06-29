@@ -5,9 +5,9 @@
 <head>
 <Title>Pictures</Title>
     <link href="includes/style.css" type = "text/css" rel="stylesheet"/>
-    <div class="Header"><h1>Pictures</h1></div>
 </head>
 <body>
+    <div class="Header"><h1>Pictures</h1></div>
     <?php
     include 'includes/year_menu.txt'            
     ?>
