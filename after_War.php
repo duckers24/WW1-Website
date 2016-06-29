@@ -65,6 +65,16 @@
                         <a href="events.php">Events</a>
                     </li>
                 </ul>
+                <div class="col-sm-3 col-md-3 pull-right">
+                    <form class="navbar-form" role="search" method="get" action="search_Results.php">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -77,7 +87,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>After the War</h1>
-                <p class="lead">Please select a year to see the soldiers that lost their lives</p>
+                <p class="lead">Please select a year to see the soldiers that lost their lives after the war</p>
                 <Table class="table">
                     <tr>
                         <td><span title="View all of the soldiers that died in 1919"><a href='year.php?year=1919'>

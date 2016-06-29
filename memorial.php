@@ -65,6 +65,16 @@
                         <a href="events.php">Events</a>
                     </li>
                 </ul>
+                <div class="col-sm-3 col-md-3 pull-right">
+                    <form class="navbar-form" role="search" method="get" action="search_Results.php">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -77,11 +87,57 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>Memorial</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
-                <ul class="list-unstyled">
-                    <li>Bootstrap v3.3.6</li>
-                    <li>jQuery v1.11.1</li>
-                </ul>
+                <p class="lead">These are all of the memorials within the local area</p>
+                <Table class="table">
+            <tr>
+                <td><span title="All the information about the Amberley Memorial">
+                    <a href='memorial_Detail.php?Memorial=Amberley'>
+                        <img src="graphics/memorial_Button/AmberleySmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Avening Memorial">
+                    <a href='memorial_Detail.php?Memorial=Avening'>
+                        <img src="graphics/memorial_Button/AveningSmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Forest Green Memorial">
+                    <a href='memorial_Detail.php?Memorial=Forest'>
+                        <img src="graphics/memorial_Button/ForestGreenSmall.jpg"></a></span></td>    
+            </tr>
+            <tr></tr>
+            <tr>
+                <td><span title="All the information about the Horsley Memorial">
+                    <a href='memorial_Detail.php?Memorial=Horsley'>
+                        <img src="graphics/memorial_Button/HorsleySmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Minchinhampton Memorial">
+                    <a href='memorial_Detail.php?Memorial=Minchinhampton'>
+                        <img src="graphics/memorial_Button/MinchinhamptonSmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Nympsfield Memorial">
+                    <a href='memorial_Detail.php?Memorial=Nympsfield'>
+                        <img src="graphics/memorial_Button/NympsfieldSmall.jpg"></a></span></td>    
+            </tr>
+            <tr></tr>
+            <tr>
+                <td><span title="All the information about the Rodborough Memorial">
+                    <a href='memorial_Detail.php?Memorial=Rodborough'>
+                        <img src="graphics/memorial_Button/RodboroughSmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Shortwood Memorial">
+                    <a href='memorial_Detail.php?Memorial=Shortwood'>
+                        <img src="graphics/memorial_Button/ShortwoodSmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Gloters Memorial">
+                    <a href='memorial_Detail.php?Memorial=Gloters'>
+                        <img src="graphics/memorial_Button/GlotersSmall.jpg"></a></span></td>    
+            </tr>
+            <tr></tr>
+            <tr>
+                <td><span title="All the information about the Woodchester Memorial">
+                    <a href='memorial_Detail.php?Memorial=Wodchester'>
+                        <img src="graphics/memorial_Button/WoodchesterSmall.jpg"></a></span></td>
+            </tr>
+            <tr></tr>
+        </Table>
             </div>
         </div>
         <!-- /.row -->
