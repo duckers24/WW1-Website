@@ -49,10 +49,6 @@ $Memorial=$_GET['Memorial']
             padding-top: 70px;
             /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
         }
-        picture {
-            width: 800px; 
-            padding: 5px 0px;
-        }
     </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -163,7 +159,7 @@ $Memorial=$_GET['Memorial']
                     ?>
                 </table>
                 <?php
-                echo '<img class="Picture" src="Graphics/Memorial/'.$Memorial.'.jpg">'
+                echo '<img style="width: 800px; padding: 5px 0px;" src="Graphics/Memorial/'.$Memorial.'.jpg">'
                 ?>
                 <div>
                     <?php
