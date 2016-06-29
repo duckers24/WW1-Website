@@ -172,7 +172,7 @@ include 'includes/db.inc.php'
                         if (file_exists($PHPPhotoPath)) {
                             echo        '<img src="'.$RealPhotoPath.'"/>';
                         } else { 
-                            echo        '<img src="Graphics/SoldierMemorial/Head.jpg">'; 
+                            echo        '<img src="graphics/soldier_Memorial/Head.jpg">'; 
                         }
                         echo        '</td>';
                         echo	    '<td>'. $row['Rank'] .'</td>';
