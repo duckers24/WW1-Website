@@ -94,7 +94,7 @@ $year=$_GET['year']
                     exit('<p>Error performing query: ' . mysql_error() . '</p>');
                 }
                 ?>
-                <table>
+                <table class="table">
                     <tr>
                         <td>Fisrt name</td><td>Last Name</td><td>Link to Soldier</td>
                     </tr>
