@@ -77,11 +77,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>After the War</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
-                <ul class="list-unstyled">
-                    <li>Bootstrap v3.3.6</li>
-                    <li>jQuery v1.11.1</li>
-                </ul>
+                <p class="lead">Please select a year to see the soldiers that lost their lives</p>
             </div>
         </div>
         <!-- /.row -->
