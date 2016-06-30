@@ -42,18 +42,6 @@
             <div class="col-lg-12 text-center">
                 <h1>After the War</h1>
                 <p class="lead">Please select a year to see the soldiers that lost their lives after the war</p>
-                <Table class="table">
-                    <tr>
-                        <td><span title="View all of the soldiers that died in 1919"><a href='year.php?year=1919'>
-                            <img src="graphics/after_War/1919Small.jpg"></a></span></td>
-                <td></td>
-                <td><span title="View all of the soldiers that died in 1920"><a href='year.php?year=1920'>
-                    <img src="graphics/after_War/1920Small.jpg"></a></span></td>
-                <td></td>
-                <td><span title="View all of the soldiers that died in 1928"><a href='year.php?year=1928'>
-                    <img src="graphics/after_War/1928Small.jpg"></a></span></td>    
-            </tr>
-        </Table>
             </div>
         </div>
         <!-- /.row -->
