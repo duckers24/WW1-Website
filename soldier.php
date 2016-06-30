@@ -102,60 +102,51 @@ $Sequence=$_GET['Sequence']
 
         <div class="row">
             <div class="col-lg-12 text-center">
-                <?php
-        // Request the text of soldiers
-    $result = @mysql_query('SELECT Sequence, First_name, Last_name, Number, Rank, Regiment, Awards, Year_born, How_died, Where_died, Where_buried, Where_commemorated, Birthplace FROM soldiers WHERE Sequence = "'.$Sequence.'" ORDER by Last_name');
-    if (!$result) {
-        exit('<p>Error performing query: ' . mysql_error() . '</p>');
-    }
-        while ($Name = mysql_fetch_array($result))
-        {
-            echo '<h1>'. $Name['First_name'] . " " . $Name['Last_name'] .'</h1>';
-        }
-                ?>
-                <p class="lead">All of the inforamtion about this soldier</p>
-                <table class="table">
-                    <?php
-                    // Request the text of soldiers
-    $result = @mysql_query('SELECT Sequence, First_name, Last_name, Number, Rank, Regiment, Awards, Year_born, How_died, Where_died, Where_buried, Where_commemorated, Birthplace FROM soldiers WHERE Sequence = "'.$Sequence.'" ORDER by Last_name');
-    if (!$result) {
-        exit('<p>Error performing query: ' . mysql_error() . '</p>');
-    }
-                    while ($row = mysql_fetch_array($result))
-                    {
-                        $Photo=$row['Sequence'];
-                        $PHPPath='/Users/william/Documents/ww1 webserver/Graphics/SoldierMemorial/';
-                        $DataType='.jpg';
-                        $ImagePath='/Graphics/SoldierMemorial/';
-                        $PHPPhotoPath= $PHPPath.$Photo.$DataType;
-                        $RealPhotoPath = $ImagePath.$Photo.$DataType;
-                        echo '<tr>';
-                        echo '<td>';
-                        if (file_exists($PHPPhotoPath)) {
-                            echo        '<img src="'.$RealPhotoPath.'"/>';
-                        } else {
-                            echo        '<img src="graphics/soldier_Memorial/Head.jpg">';
-                        }
-                        echo '<tr>';
-                        echo '<td>'. $row['First_name'] .'</td>';
-                        echo '<td>'. $row['Middle_names'] .'</td>';
-                        echo '<td>'. $row['Last_name'] .'</td>';
-                        echo '</tr>';
-                        echo '<tr>';
-                        echo '<td>'. $row['Rank'] .'</td>';
-                        echo '<td>'. $row['Number'] .'</td>';
-                        echo '<td>'. $row['Regiment'] .'</td>';
-                        echo '<td>'. $row['Awards'] .'</td>';
-                        echo '</tr>';
-                        echo '<tr>';
-                        echo '<td>'. $row['Birth_accuracy'] .'</td>';
-                    }
-                    ?>
-                </table>
-            </div>
-        </div>
-        <!-- /.row -->
+                <section id="about">
+		<div class="col-md-4 col-md-push-2">				
+			<ul class="about-data">
+				<li>
+					<div class="inner-abcoin"><i class="fa fa-user"></i></div>
+					<label>Name</label>
+					<span class="value">Jenny Smith</span>
+					<div class="clear"></div>
+					<hr>
+				</li>
+				<li>
+					<div class="inner-abcoin"><i class="fa fa-calendar"></i></div>
+					<label>Date of birth</label>
+					<span class="value">June 22, 1978</span>
+					<div class="clear"></div>
+					<hr>
+				</li>
+				<li> 
+					<div class="inner-abcoin"><i class="fa fa-map-marker"></i></div>
+					<label>City</label>
+					<span class="value">San Francisco , CA</span>
+					<div class="clear"></div>
+					<hr>
+				</li>
+				<li>
+					<div class="inner-abcoin"><i class="fa fa-envelope"></i></div>
+					<label>Email</label>
+					<span class="value">jen.smith@gmail.com</span>
+					<div class="clear"></div>
+					<hr>
+				</li>
+				<li>
+					<div class="inner-abcoin"><i class="fa fa-mobile"></i></div>
+					<label>Phone</label>
+					<span class="value">+123 (21) 1234-5678</span>
+					<div class="clear"></div>
+					<hr>
+				</li>
+			</ul>
+		</div>	
 
+		<div class="col-md-6 col-md-push-2">
+			<img src="img/5.jpg" alt="" class="img-responsive" />
+		</div>										
+	</section>
     </div>
     <!-- /.container -->
 
