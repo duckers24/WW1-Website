@@ -110,43 +110,43 @@ $Sequence=$_GET['Sequence']
 				<li>
 					<div class="inner-abcoin"><i class="fa fa-user"></i></div>
 					<label>Name</label>
-					<span class="value">Jenny Smith</span>
+					<span class="value">John Smith</span>
+					<div class="clear"></div>
+					<hr>
+				</li>
+                <li>
+					<div class="inner-abcoin"><i class="fa fa-mobile"></i></div>
+					<label>Regiment</label>
+					<span class="value">+123 (21) 1234-5678</span>
 					<div class="clear"></div>
 					<hr>
 				</li>
 				<li>
 					<div class="inner-abcoin"><i class="fa fa-calendar"></i></div>
-					<label>Date of birth</label>
+					<label>Birthplace</label>
 					<span class="value">June 22, 1978</span>
 					<div class="clear"></div>
 					<hr>
 				</li>
 				<li> 
 					<div class="inner-abcoin"><i class="fa fa-map-marker"></i></div>
-					<label>City</label>
-					<span class="value">San Francisco , CA</span>
+					<label>Date of Death</label>
+					<span class="value">Nailsworth, UK</span>
 					<div class="clear"></div>
 					<hr>
 				</li>
 				<li>
 					<div class="inner-abcoin"><i class="fa fa-envelope"></i></div>
-					<label>Email</label>
-					<span class="value">jen.smith@gmail.com</span>
+					<label>Age</label>
+					<span class="value">john.smoith@gmail.com</span>
 					<div class="clear"></div>
 					<hr>
-				</li>
-				<li>
-					<div class="inner-abcoin"><i class="fa fa-mobile"></i></div>
-					<label>Phone</label>
-					<span class="value">+123 (21) 1234-5678</span>
-					<div class="clear"></div>
-					<hr>
-				</li>
+                </li>
 			</ul>
 		</div>	
 
 		<div class="col-md-6 col-md-push-2">
-			<img src="img/5.jpg" alt="" class="img-responsive" />
+			<img src="graphics/soldier/3.jpg" alt="" class="img-responsive" />
 		</div>										
 	</section>
             </div>
