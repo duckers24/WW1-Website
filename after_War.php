@@ -54,22 +54,22 @@
                 <p>Please click here to see all of the soliders that lost their lives during 1919.</p>
             </div>
             <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                <a href="year.php?year=1920">
+                    <img class="img-responsive" src="graphics/after_War/1920Small.jpg" alt="1920 Newspaper Heading">
                 </a>
                 <h3>
-                    <a href="#">Project Name</a>
+                    <a href="year.php?year=1920">1920</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <p>Please click here to see all of the soldiers that lost their lives during 1920.</p>
             </div>
             <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                <a href="year.php?year=1928">
+                    <img class="img-responsive" src="graphics/after_War/1928Small.jpg" alt="1928 Newspaper Heading">
                 </a>
                 <h3>
-                    <a href="#">Project Name</a>
+                    <a href="year.php?year=1928">1928</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <p>Please click here to see all of the soldiers that lost their lives during 1928.</p>
             </div>
         </div>
         <!-- /.row -->
