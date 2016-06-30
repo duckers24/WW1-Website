@@ -109,7 +109,7 @@ $Sequence=$_GET['Sequence']
                     echo '<div class="col-md-4 col-md-push-2">';
                         echo '<ul class="about-data">';
                             // Request the text of soldiers
-                            $result = @mysql_query('SELECT Sequence, First_name, Last_name, Number, Rank, Regiment, Awards, Year_born, How_died, Where_died, Where_buried, Where_commemorated, Birthplace, Date_of_death, Approx_age FROM soldiers WHERE Sequence = "'.$Sequence.'" ORDER by Last_name');
+                            $result = @mysql_query('SELECT Sequence, First_name, Last_name, Middle_names, Number, Rank, Regiment, Awards, Year_born, How_died, Where_died, Where_buried, Where_commemorated, Birthplace, Date_of_death, Approx_age FROM soldiers WHERE Sequence = "'.$Sequence.'" ORDER by Last_name');
                             if (!$result) {
                                 exit('<p>Error performing query: ' . mysql_error() . '</p>');
                             }
@@ -123,7 +123,7 @@ $Sequence=$_GET['Sequence']
                                 echo '<li>';
                                     echo '<div class="inner-abcoin"><i class="fa fa-user"></i></div>';
                                     echo '<label>Name</label>';
-                                    echo '<span class="value">'. $Name['First_name'] . " " . $Name['Last_name'] .'</span>';
+                                    echo '<span class="value">'. $row['First_name'] . " " . $row['Middle_names'] . " " . $row['Last_name'] .'</span>';
                                     echo '<div class="clear"></div>';
                                     echo '<hr>';
                                 echo '</li>';
