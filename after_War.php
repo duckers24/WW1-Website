@@ -45,13 +45,13 @@
                 <!-- Projects Row -->
         <div class="row">
             <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                <a href="year.php?year=1919">
+                    <img class="img-responsive" src="graphics/after_War/1919Small.jpg" alt="1919 Newspaper Heading">
                 </a>
                 <h3>
-                    <a href="#">Project Name</a>
+                    <a href="year.php?year=1919">1919</a>
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <p>Please click here to see all of the soliders that lost their lives during 1919.</p>
             </div>
             <div class="col-md-4 portfolio-item">
                 <a href="#">
