@@ -115,9 +115,9 @@ $Sequence=$_GET['Sequence']
                             }
                             while ($row = mysql_fetch_array($result)) {
                                 $Photo=$row['Sequence'];
-                                $PHPPath='/Users/william/Documents/ww1 webserver/Graphics/SoldierMemorial/';
+                                $PHPPath='/Users/william/Documents/Development/graphics/soldier_Memorial/';
                                 $DataType='.jpg';
-                                $ImagePath='/Graphics/SoldierMemorial/';
+                                $ImagePath='/graphics/soldier_Memorial/';
                                 $PHPPhotoPath= $PHPPath.$Photo.$DataType;
                                 $RealPhotoPath = $ImagePath.$Photo.$DataType;
                                 echo '<li>';
@@ -158,7 +158,11 @@ $Sequence=$_GET['Sequence']
                                 echo '</ul>';
                             echo '</div>';
                             echo '<div class="col-md-6 col-md-push-2">';
-                                echo '<img src="graphics/soldier/3.jpg" alt="" class="img-responsive" />';
+                                if (file_exists($PHPPhotoPath)) {
+                                    echo '<img src="graphics/soldier/'. $row['Sequence'] .'.jpg" alt="" class="img-responsive" />';
+                                } else {
+                                    echo        '<img src="graphics/soldier_Memorial/Head.jpg">';
+                                }
                             echo '</div>';
                             echo '</section>';
                             }
