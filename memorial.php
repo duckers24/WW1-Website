@@ -56,7 +56,7 @@
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="memorial_Detail.php?Memorial=Avening">
-                            <img class="img-responsive" src="graphics/memorial_Button/AveningFormat.jpg" alt="Avening War Memorial button">
+                            <img class="img-responsive" src="graphics/memorial_Button/Avening_Format.jpg" alt="Avening War Memorial button">
                         </a>
                         <h3>
                             <a href="memorial_Detail.php?Memorial=Avening">Avening</a>
@@ -65,7 +65,7 @@
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="memorial_Detail.php?Memorial=Forest">
-                            <img class="img-responsive" src="graphics/memorial_Button/ForestGreen_Format.jpg" alt="Forest Green War Memorial button">
+                            <img class="img-responsive" src="graphics/memorial_Button/Forest_Format.jpg" alt="Forest Green War Memorial button">
                         </a>
                         <h3>
                             <a href="memorial_Detail.php?Memorial=Forest">Forest Green</a>
