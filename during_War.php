@@ -15,6 +15,7 @@
     <link href="includes/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
+    <link href="includes/css/3-col-portfolio.css" rel="stylesheet">
     <style>
     body {
         padding-top: 70px;
