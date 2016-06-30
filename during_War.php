@@ -15,6 +15,7 @@
     <link href="includes/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
+    <link href="includes/css/3-col-portfolio.css" rel="stylesheet">
     <style>
     body {
         padding-top: 70px;
@@ -42,28 +43,69 @@
             <div class="col-lg-12 text-center">
                 <h1>During the War</h1>
                 <p class="lead">Please select a year to see the soldiers that lost their lives</p>
-                <Table class="table">
-            <tr>
-                <td><span title="See all of the soldiers that lost their lives in 1914">
-                    <a href='year.php?year=1914'><img src="graphics/during_War/1914Small.jpg"></a></span></td>
-                <td></td>
-                <td><span title="See all of the soldiers that lost their lives in 1915">
-                    <a href='year.php?year=1915'><img src="graphics/during_War/1915Small.jpg"></a></span></td>
-                <td></td>
-                <td><span title="See all of the soldiers that lost their lives in 1916">
-                    <a href='year.php?year=1916'><img src="graphics/during_War/1916Small.jpg"></a></span></td>    
-            </tr>
-            <tr></tr>
-            <tr>
-                <td><span title="See all of the soldiers that lost their lives in 1917">
-                    <a href='year.php?year=1917'><img src="graphics/during_War/1917Small.jpg"></a></span></td>
-                <td></td>
-                <td><span title="See all of the soldiers that lost their lives in 1918">
-                    <a href='year.php?year=1918'><img src="graphics/during_War/1918Small.jpg"></a></span></td>
-                <td></td>    
-            </tr>
-            <tr></tr>
-        </Table>
+                <!-- Projects Row -->
+                <div class="row">
+                    <div class="col-md-4 portfolio-item">
+                        <a href="year.php?year=1914">
+                            <img class="img-responsive" src="graphics/during_War/1914Small.jpg" alt="1914 Newspaper Heading">
+                        </a>
+                        <h3>
+                            <a href="year.php?year=1914">1914</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    </div>
+                    <div class="col-md-4 portfolio-item">
+                        <a href="year.php?year=1915">
+                            <img class="img-responsive" src="graphics/during_War/1915Small.jpg" alt="1915 Newspaper Heading">
+                        </a>
+                        <h3>
+                            <a href="year.php?year=1915">1915</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    </div>
+                    <div class="col-md-4 portfolio-item">
+                        <a href="year.php?year=1916">
+                            <img class="img-responsive" src="graphics/during_War/1916Small.jpg" alt="1916 Newspaper Heading">
+                        </a>
+                        <h3>
+                            <a href="year.php?year=1916">1916</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+                <!-- Projects Row -->
+                <div class="row">
+                    <div class="col-md-4 portfolio-item">
+                        <a href="year.php?year=1917">
+                            <img class="img-responsive" src="graphics/during_War/1917Small.jpg" alt="1917 Newspaper Heading">
+                        </a>
+                        <h3>
+                            <a href="year.php?year=1917">1917</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    </div>
+                    <div class="col-md-4 portfolio-item">
+                        <a href="year.php?year=1918">
+                            <img class="img-responsive" src="graphics/during_War/1918Small.jpg" alt="1918 Newspaper Heading">
+                        </a>
+                        <h3>
+                            <a href="year.php?year=1918">1918</a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+                <hr>
+                <!-- Footer -->
+                <footer>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p>Copyright &copy; Your Website 2014</p>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </footer>
             </div>
         </div>
         <!-- /.row -->
