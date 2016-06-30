@@ -15,7 +15,8 @@
     <link href="includes/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-
+    <link href="includes/css/unslider.css" rel="stylesheet">
+    
     <style>
     body {
         padding-top: 70px;
@@ -43,6 +44,25 @@
             <div class="col-lg-12 text-center">
                 <h1>Pictures</h1>
                 <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
+                <div class="my-slider">
+                    <ul>
+                        <li>
+                            <div style="float: centre">
+                                <img style="width: 400px;" src="graphics/stroud_Journal/3%20Stroud%20Journal%2013Aug1920%201%20of%202.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div style="float: centre;">
+                                <img style="width: 400px;" src="graphics/stroud_Journal/3%20Stroud%20Journal%2013Aug1920%202%20of%202.jpg">
+                            </div>
+                        </li>
+                        <li>
+                            <div style="float: centre;">
+                                <img style="width: 400px;" src="graphics/stroud_Journal/3%20Stroud%20Journal%201Oct1920%201%20of%203.jpg">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         <!-- /.row -->
@@ -52,9 +72,16 @@
 
     <!-- jQuery Version 1.11.1 -->
     <script src="includes/js/jquery.js"></script>
+    
+    <!-- Slider-->
+    <script src="includes/js/unslider-min.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="includes/js/bootstrap.min.js"></script>
-
+    <script>
+		jQuery(document).ready(function($) {
+			$('.my-slider').unslider();
+		});
+	</script>
 </body>
 
 </html>
