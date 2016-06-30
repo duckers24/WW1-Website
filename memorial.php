@@ -95,58 +95,27 @@
                             <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                         </a>
                         <h3>
-                            <a href="#">Project Name</a>
+                            <a href="#">Amberley</a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                        <p>Please click here to see more information about the Amberley War Memorial.</p>
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="#">
                             <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                         </a>
                         <h3>
-                            <a href="#">Project Name</a>
+                            <a href="#">Avening</a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                        <p>Please click here to see more information about the Avening War Memorial.</p>
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="#">
                             <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                         </a>
                         <h3>
-                            <a href="#">Project Name</a>
+                            <a href="#">Forest Green</a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                    </div>
-                </div>
-                <!-- /.row -->
-                <!-- Projects Row -->
-                <div class="row">
-                    <div class="col-md-4 portfolio-item">
-                        <a href="#">
-                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                        </a>
-                        <h3>
-                            <a href="#">Project Name</a>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                    </div>
-                    <div class="col-md-4 portfolio-item">
-                        <a href="#">
-                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                        </a>
-                        <h3>
-                            <a href="#">Project Name</a>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                    </div>
-                    <div class="col-md-4 portfolio-item">
-                        <a href="#">
-                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                        </a>
-                        <h3>
-                            <a href="#">Project Name</a>
-                        </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                        <p>Please click here to see more inforamtion about the Forest Green War Memorial.</p>
                     </div>
                 </div>
                 <!-- /.row -->
@@ -157,27 +126,27 @@
                             <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                         </a>
                         <h3>
-                            <a href="#">Project Name</a>
+                            <a href="#">Gloters</a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                        <p>Please click here to see more information about the Gloters War Memorial.</p>
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="#">
                             <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                         </a>
                         <h3>
-                            <a href="#">Project Name</a>
+                            <a href="#">Horsley</a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                        <p>Please click here to see more inforamtion about the Horsley War Memorial.</p>
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="#">
                             <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                         </a>
                         <h3>
-                            <a href="#">Project Name</a>
+                            <a href="#">Minchinhampton</a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                        <p>Please click here to see more inforamtion about the Minchinhampton War Memorial.</p>
                     </div>
                 </div>
                 <!-- /.row -->
@@ -188,9 +157,40 @@
                             <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                         </a>
                         <h3>
-                            <a href="#">Project Name</a>
+                            <a href="#">Nympsfield</a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                        <p>Please click here to see more inforamtion about the Nympsfield War Memorial.</p>
+                    </div>
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#">
+                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        </a>
+                        <h3>
+                            <a href="#">Rodborough</a>
+                        </h3>
+                        <p>Please click here to see more information about the Rodborough War Memorial.</p>
+                    </div>
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#">
+                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        </a>
+                        <h3>
+                            <a href="#">Shortwood</a>
+                        </h3>
+                        <p>Please click here to see more information about the Shortwood War Memorial.</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+                <!-- Projects Row -->
+                <div class="row">
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#">
+                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        </a>
+                        <h3>
+                            <a href="#">Woodchester</a>
+                        </h3>
+                        <p>Please click here to see more information about the Woodchester War Memorial.</p>
                     </div>
                 </div>
                 <!-- /.row -->
