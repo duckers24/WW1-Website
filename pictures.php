@@ -15,7 +15,6 @@
     <link href="includes/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/4-col-portfolio.css" rel="stylesheet">
 
     <style>
     body {
@@ -53,7 +52,6 @@
 
     <!-- jQuery Version 1.11.1 -->
     <script src="includes/js/jquery.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="includes/js/bootstrap.min.js"></script>
 
