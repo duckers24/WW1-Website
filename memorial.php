@@ -32,44 +32,9 @@
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.php">Home</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="during_War.php">During War</a>
-                    </li>
-                    <li>
-                        <a href="after_War.php">After War</a>
-                    </li>
-                    <li>
-                        <a href="memorial.php">Memorial</a>
-                    </li>
-                    <li>
-                        <a href="pictures.php">Pictures</a>
-                    </li>
-                    <li>
-                        <a href="events.php">Events</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+    <?php
+    include 'navigation.php';
+    ?>
 
     <!-- Page Content -->
     <div class="container">
@@ -77,11 +42,57 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>Memorial</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
-                <ul class="list-unstyled">
-                    <li>Bootstrap v3.3.6</li>
-                    <li>jQuery v1.11.1</li>
-                </ul>
+                <p class="lead">These are all of the memorials within the local area</p>
+                <Table class="table">
+            <tr>
+                <td><span title="All the information about the Amberley Memorial">
+                    <a href='memorial_Detail.php?Memorial=Amberley'>
+                        <img src="graphics/memorial_Button/AmberleySmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Avening Memorial">
+                    <a href='memorial_Detail.php?Memorial=Avening'>
+                        <img src="graphics/memorial_Button/AveningSmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Forest Green Memorial">
+                    <a href='memorial_Detail.php?Memorial=Forest'>
+                        <img src="graphics/memorial_Button/ForestGreenSmall.jpg"></a></span></td>    
+            </tr>
+            <tr></tr>
+            <tr>
+                <td><span title="All the information about the Horsley Memorial">
+                    <a href='memorial_Detail.php?Memorial=Horsley'>
+                        <img src="graphics/memorial_Button/HorsleySmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Minchinhampton Memorial">
+                    <a href='memorial_Detail.php?Memorial=Minchinhampton'>
+                        <img src="graphics/memorial_Button/MinchinhamptonSmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Nympsfield Memorial">
+                    <a href='memorial_Detail.php?Memorial=Nympsfield'>
+                        <img src="graphics/memorial_Button/NympsfieldSmall.jpg"></a></span></td>    
+            </tr>
+            <tr></tr>
+            <tr>
+                <td><span title="All the information about the Rodborough Memorial">
+                    <a href='memorial_Detail.php?Memorial=Rodborough'>
+                        <img src="graphics/memorial_Button/RodboroughSmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Shortwood Memorial">
+                    <a href='memorial_Detail.php?Memorial=Shortwood'>
+                        <img src="graphics/memorial_Button/ShortwoodSmall.jpg"></a></span></td>
+                <td></td>
+                <td><span title="All the information about the Gloters Memorial">
+                    <a href='memorial_Detail.php?Memorial=Gloters'>
+                        <img src="graphics/memorial_Button/GlotersSmall.jpg"></a></span></td>    
+            </tr>
+            <tr></tr>
+            <tr>
+                <td><span title="All the information about the Woodchester Memorial">
+                    <a href='memorial_Detail.php?Memorial=Wodchester'>
+                        <img src="graphics/memorial_Button/WoodchesterSmall.jpg"></a></span></td>
+            </tr>
+            <tr></tr>
+        </Table>
             </div>
         </div>
         <!-- /.row -->
