@@ -104,52 +104,66 @@ $Sequence=$_GET['Sequence']
 
         <div class="row">
             <div class="col-lg-12 text-center">
-                <section id="about">
-		<div class="col-md-4 col-md-push-2">				
-			<ul class="about-data">
-				<li>
-					<div class="inner-abcoin"><i class="fa fa-user"></i></div>
-					<label>Name</label>
-					<span class="value">John Smith</span>
-					<div class="clear"></div>
-					<hr>
-				</li>
-                <li>
-					<div class="inner-abcoin"><i class="fa fa-mobile"></i></div>
-					<label>Regiment</label>
-					<span class="value">+123 (21) 1234-5678</span>
-					<div class="clear"></div>
-					<hr>
-				</li>
-				<li>
-					<div class="inner-abcoin"><i class="fa fa-calendar"></i></div>
-					<label>Birthplace</label>
-					<span class="value">June 22, 1978</span>
-					<div class="clear"></div>
-					<hr>
-				</li>
-				<li> 
-					<div class="inner-abcoin"><i class="fa fa-map-marker"></i></div>
-					<label>Date of Death</label>
-					<span class="value">Nailsworth, UK</span>
-					<div class="clear"></div>
-					<hr>
-				</li>
-				<li>
-					<div class="inner-abcoin"><i class="fa fa-envelope"></i></div>
-					<label>Age</label>
-					<span class="value">john.smoith@gmail.com</span>
-					<div class="clear"></div>
-					<hr>
-                </li>
-			</ul>
-		</div>	
-
-		<div class="col-md-6 col-md-push-2">
-			<img src="graphics/soldier/3.jpg" alt="" class="img-responsive" />
-		</div>										
-	</section>
-            </div>
+                <?php
+                echo '<section id="about">';
+                    echo '<div class="col-md-4 col-md-push-2">';
+                        echo '<ul class="about-data">';
+                            // Request the text of soldiers
+                            $result = @mysql_query('SELECT Sequence, First_name, Last_name, Number, Rank, Regiment, Awards, Year_born, How_died, Where_died, Where_buried, Where_commemorated, Birthplace, Date_of_death, Approx_age FROM soldiers WHERE Sequence = "'.$Sequence.'" ORDER by Last_name');
+                            if (!$result) {
+                                exit('<p>Error performing query: ' . mysql_error() . '</p>');
+                            }
+                            while ($row = mysql_fetch_array($result)) {
+                                $Photo=$row['Sequence'];
+                                $PHPPath='/Users/william/Documents/ww1 webserver/Graphics/SoldierMemorial/';
+                                $DataType='.jpg';
+                                $ImagePath='/Graphics/SoldierMemorial/';
+                                $PHPPhotoPath= $PHPPath.$Photo.$DataType;
+                                $RealPhotoPath = $ImagePath.$Photo.$DataType;
+                                echo '<li>';
+                                    echo '<div class="inner-abcoin"><i class="fa fa-user"></i></div>';
+                                    echo '<label>Name</label>';
+                                    echo '<span class="value">'. $row['First_name'] .'</span>';
+                                    echo '<div class="clear"></div>';
+                                    echo '<hr>';
+                                echo '</li>';
+                                echo '<li>';
+                                    echo '<div class="inner-abcoin"><i class="fa fa-mobile"></i></div>';
+                                    echo '<label>Regiment</label>';
+                                    echo '<span class="value">'. $row['Regiment'] .'</span>';
+                                    echo '<div class="clear"></div>';
+                                    echo '<hr>';
+                                echo '</li>';
+                                echo '<li>';
+                                    echo '<div class="inner-abcoin"><i class="fa fa-calendar"></i></div>';
+                                    echo '<label>Birthplace</label>';
+                                    echo '<span class="value">'. $row['Birthplace'] .'</span>';
+                                    echo '<div class="clear"></div>';
+                                    echo '<hr>';
+                                echo '</li>';
+                                echo '<li>';
+                                    echo '<div class="inner-abcoin"><i class="fa fa-map-marker"></i></div>';
+                                    echo '<label>Date of Death</label>';
+                                    echo '<span class="value">'. $row['Date_of_death'] .'</span>';
+                                    echo '<div class="clear"></div>';
+                                    echo '<hr>';
+                                echo '</li>';
+                                echo '<li>';
+                                    echo '<div class="inner-abcoin"><i class="fa fa-envelope"></i></div>';
+                                    echo '<label>Age</label>';
+                                    echo '<span class="value">'. $row['Approx_age'] .'</span>';
+                                    echo '<div class="clear"></div>';
+                                    echo '<hr>';
+                                echo '</li>';
+                                echo '</ul>';
+                            echo '</div>';
+                            echo '<div class="col-md-6 col-md-push-2">';
+                                echo '<img src="graphics/soldier/3.jpg" alt="" class="img-responsive" />';
+                            echo '</div>';
+                            echo '</section>';
+                            }
+                            ?>
+                    </div>
         </div>
         <!-- /.row -->
 
