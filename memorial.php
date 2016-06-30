@@ -46,29 +46,29 @@
                 <!-- Projects Row -->
                 <div class="row">
                     <div class="col-md-4 portfolio-item">
-                        <a href="#">
-                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        <a href="memorial_Detail.php?Memorial=Amberley">
+                            <img class="img-responsive" src="graphics/memorial_Button/AmberleySmall.jpg" alt="Amberley War Memorial button">
                         </a>
                         <h3>
-                            <a href="#">Amberley</a>
+                            <a href="memorial_Detail.php?Memorial=Amberley">Amberley</a>
                         </h3>
                         <p>Please click here to see more information about the Amberley War Memorial.</p>
                     </div>
                     <div class="col-md-4 portfolio-item">
-                        <a href="#">
-                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        <a href="memorial_Detail.php?Memorial=Avening">
+                            <img class="img-responsive" src="graphics/memorial_Button/AveningSmall.jpg" alt="Avening War Memorial button">
                         </a>
                         <h3>
-                            <a href="#">Avening</a>
+                            <a href="memorial_Detail.php?Memorial=Avening">Avening</a>
                         </h3>
                         <p>Please click here to see more information about the Avening War Memorial.</p>
                     </div>
                     <div class="col-md-4 portfolio-item">
-                        <a href="#">
-                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        <a href="memorial_Detail.php?Memorial=Forest">
+                            <img class="img-responsive" src="graphics/memorial_Button/ForestGreenSmall.jpg" alt="Forest Green War Memorial button">
                         </a>
                         <h3>
-                            <a href="#">Forest Green</a>
+                            <a href="memorial_Detail.php?Memorial=Forest">Forest Green</a>
                         </h3>
                         <p>Please click here to see more inforamtion about the Forest Green War Memorial.</p>
                     </div>
@@ -77,29 +77,29 @@
                 <!-- Projects Row -->
                 <div class="row">
                     <div class="col-md-4 portfolio-item">
-                        <a href="#">
-                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        <a href="memorial_Detail.php?Memorial=Gloters">
+                            <img class="img-responsive" src="graphics/memorial_Button/GlotersSmall.jpg" alt="Gloters War Memorial button">
                         </a>
                         <h3>
-                            <a href="#">Gloters</a>
+                            <a href="memorial_Detail.php?Memorial=Gloters">Gloters</a>
                         </h3>
                         <p>Please click here to see more information about the Gloters War Memorial.</p>
                     </div>
                     <div class="col-md-4 portfolio-item">
-                        <a href="#">
-                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        <a href="memorial_Detail.php?Memorial=Horsley">
+                            <img class="img-responsive" src="graphics/memorial_Button/HorsleySmall.jpg" alt="Horsley War Memorial butotn">
                         </a>
                         <h3>
-                            <a href="#">Horsley</a>
+                            <a href="memorial_Detail.php?Memorial=Horsley">Horsley</a>
                         </h3>
                         <p>Please click here to see more inforamtion about the Horsley War Memorial.</p>
                     </div>
                     <div class="col-md-4 portfolio-item">
-                        <a href="#">
-                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        <a href="memorial_Detail.php?Memorial=Minchinhampton">
+                            <img class="img-responsive" src="graphics/memorial_Button/MinchinhamptonSmall.jpg" alt="Minchinhampton War Memorial button">
                         </a>
                         <h3>
-                            <a href="#">Minchinhampton</a>
+                            <a href="memorial_Detail.php?Memorial=Minchinhampton">Minchinhampton</a>
                         </h3>
                         <p>Please click here to see more inforamtion about the Minchinhampton War Memorial.</p>
                     </div>
@@ -108,29 +108,29 @@
                 <!-- Projects Row -->
                 <div class="row">
                     <div class="col-md-4 portfolio-item">
-                        <a href="#">
-                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        <a href="memorial_Detail.php?Memorial=Nympsfield">
+                            <img class="img-responsive" src="graphics/memorial_Button/NympsfieldSmall.jpg" alt="Nympsfield War Memorial button">
                         </a>
                         <h3>
-                            <a href="#">Nympsfield</a>
+                            <a href="memorial_Detail.php?Memorial=Nympsfield">Nympsfield</a>
                         </h3>
                         <p>Please click here to see more inforamtion about the Nympsfield War Memorial.</p>
                     </div>
                     <div class="col-md-4 portfolio-item">
-                        <a href="#">
-                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        <a href="memorial_Detail.php?Memorial=Rodborough">
+                            <img class="img-responsive" src="graphics/memorial_Button/RodboroughSmall.jpg" alt="Rodborough War Memorial button">
                         </a>
                         <h3>
-                            <a href="#">Rodborough</a>
+                            <a href="memorial_Detail.php?Memorial=Rodborough">Rodborough</a>
                         </h3>
                         <p>Please click here to see more information about the Rodborough War Memorial.</p>
                     </div>
                     <div class="col-md-4 portfolio-item">
-                        <a href="#">
-                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        <a href="memorial_Detail.php?Memorial=Shortwood">
+                            <img class="img-responsive" src="graphics/memorial_Button/ShortwoodSmall.jpg" alt="Shortwood War Memorial button">
                         </a>
                         <h3>
-                            <a href="#">Shortwood</a>
+                            <a href="memorial_Detail.php?Memorial=Shortwood">Shortwood</a>
                         </h3>
                         <p>Please click here to see more information about the Shortwood War Memorial.</p>
                     </div>
@@ -139,11 +139,11 @@
                 <!-- Projects Row -->
                 <div class="row">
                     <div class="col-md-4 portfolio-item">
-                        <a href="#">
-                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        <a href="memorial_Detail.php?Memorial=Woodchester">
+                            <img class="img-responsive" src="graphics/memorial_Button/WoodchesterSmall.jpg" alt="Woodchester War Memorial button">
                         </a>
                         <h3>
-                            <a href="#">Woodchester</a>
+                            <a href="memorial_Detail.php?Memorial=Woodchester">Woodchester</a>
                         </h3>
                         <p>Please click here to see more information about the Woodchester War Memorial.</p>
                     </div>
