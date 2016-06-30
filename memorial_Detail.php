@@ -138,7 +138,7 @@ include 'includes/db.inc.php'
                     ?>
                 </table>
                 <?php
-                echo '<img style="width: 800px; padding: 5px 0px;" src="Graphics/Memorial/'.$Memorial.'.jpg">'
+                echo '<img style="width: 800px; padding: 5px 0px;" src="graphics/memorial/'.$Memorial.'.jpg">'
                 ?>
                 <div>
                     <?php
