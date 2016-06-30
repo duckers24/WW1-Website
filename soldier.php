@@ -123,7 +123,7 @@ $Sequence=$_GET['Sequence']
                                 echo '<li>';
                                     echo '<div class="inner-abcoin"><i class="fa fa-user"></i></div>';
                                     echo '<label>Name</label>';
-                                    echo '<span class="value">'. $row['First_name'] .'</span>';
+                                    echo '<span class="value">'. $Name['First_name'] . " " . $Name['Last_name'] .'</span>';
                                     echo '<div class="clear"></div>';
                                     echo '<hr>';
                                 echo '</li>';
