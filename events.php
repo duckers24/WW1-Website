@@ -42,7 +42,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>Events</h1>
-                <p class="lead">These are the events that happened this month during the war</p>
+                <p class="lead">This shows the soldiers that died this month 100 years ago</p>
                 <?php
                 $yearold = date("Y")-100;
                 echo  "<iframe src='https://www.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=j6bts5e6qjvtohuip3v2e8c3r0%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=2qna5f0kb04uf2ut0davckem30%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=Europe%2FLondon&dates=" . $yearold . date("m") . date ("d") . "/" . $yearold . date("m") . date ("d") . "' style=' border-width:0 ' width='800' height='600' frameborder='0' scrolling='no'></iframe>";
