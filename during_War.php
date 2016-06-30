@@ -52,7 +52,7 @@
                         <h3>
                             <a href="year.php?year=1914">1914</a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                        <p>Please click here to see all of the soliders that lost their lives during 1914.</p>
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="year.php?year=1915">
@@ -61,7 +61,7 @@
                         <h3>
                             <a href="year.php?year=1915">1915</a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                        <p>Please click here to see all of the soliders that lost their lives during 1915.</p>
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="year.php?year=1916">
@@ -70,7 +70,7 @@
                         <h3>
                             <a href="year.php?year=1916">1916</a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                        <p>Please click here to see all of the soldiers that lost their lives during 1916.</p>
                     </div>
                 </div>
                 <!-- /.row -->
@@ -83,7 +83,7 @@
                         <h3>
                             <a href="year.php?year=1917">1917</a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                        <p>Please click here to see all of the soliders that lost their lives during 1917.</p>
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="year.php?year=1918">
@@ -92,7 +92,7 @@
                         <h3>
                             <a href="year.php?year=1918">1918</a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                        <p>Please click here to see all of the soldiers that lost their lives during 1918.</p>
                     </div>
                 </div>
                 <!-- /.row -->
