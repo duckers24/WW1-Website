@@ -159,9 +159,9 @@ $Sequence=$_GET['Sequence']
                             echo '</div>';
                             echo '<div class="col-md-6 col-md-push-2">';
                                 if (file_exists($PHPPhotoPath)) {
-                                    echo '<img src="graphics/soldier/'. $row['Sequence'] .'.jpg" alt="" class="img-responsive" />';
+                                    echo '<img src="graphics/soldier/'. $row['Sequence'] .'.jpg" alt="Soldiers Head" class="img-responsive" />';
                                 } else {
-                                    echo        '<img src="graphics/soldier_Memorial/Head.jpg">';
+                                    echo        '<img src="graphics/soldier_Memorial/Head.jpg" alt="Placeholder" class="img-responsive" />';
                                 }
                             echo '</div>';
                             echo '</section>';
