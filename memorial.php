@@ -47,7 +47,7 @@
                 <div class="row">
                     <div class="col-md-4 portfolio-item">
                         <a href="memorial_Detail.php?Memorial=Amberley">
-                            <img class="img-responsive" src="graphics/memorial_Button/AmberleySmall.jpg" alt="Amberley War Memorial button">
+                            <img class="img-responsive" src="graphics/memorial_Button/Amberley_Format.jpg" alt="Amberley War Memorial button">
                         </a>
                         <h3>
                             <a href="memorial_Detail.php?Memorial=Amberley">Amberley</a>
@@ -56,7 +56,7 @@
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="memorial_Detail.php?Memorial=Avening">
-                            <img class="img-responsive" src="graphics/memorial_Button/AveningSmall.jpg" alt="Avening War Memorial button">
+                            <img class="img-responsive" src="graphics/memorial_Button/AveningFormat.jpg" alt="Avening War Memorial button">
                         </a>
                         <h3>
                             <a href="memorial_Detail.php?Memorial=Avening">Avening</a>
@@ -65,7 +65,7 @@
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="memorial_Detail.php?Memorial=Forest">
-                            <img class="img-responsive" src="graphics/memorial_Button/ForestGreenSmall.jpg" alt="Forest Green War Memorial button">
+                            <img class="img-responsive" src="graphics/memorial_Button/ForestGreen_Format.jpg" alt="Forest Green War Memorial button">
                         </a>
                         <h3>
                             <a href="memorial_Detail.php?Memorial=Forest">Forest Green</a>
@@ -78,7 +78,7 @@
                 <div class="row">
                     <div class="col-md-4 portfolio-item">
                         <a href="memorial_Detail.php?Memorial=Gloters">
-                            <img class="img-responsive" src="graphics/memorial_Button/GlotersSmall.jpg" alt="Gloters War Memorial button">
+                            <img class="img-responsive" src="graphics/memorial_Button/Gloters_Format.jpg" alt="Gloters War Memorial button">
                         </a>
                         <h3>
                             <a href="memorial_Detail.php?Memorial=Gloters">Gloters</a>
@@ -87,7 +87,7 @@
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="memorial_Detail.php?Memorial=Horsley">
-                            <img class="img-responsive" src="graphics/memorial_Button/HorsleySmall.jpg" alt="Horsley War Memorial butotn">
+                            <img class="img-responsive" src="graphics/memorial_Button/Horsley_Format.jpg" alt="Horsley War Memorial butotn">
                         </a>
                         <h3>
                             <a href="memorial_Detail.php?Memorial=Horsley">Horsley</a>
@@ -96,7 +96,7 @@
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="memorial_Detail.php?Memorial=Minchinhampton">
-                            <img class="img-responsive" src="graphics/memorial_Button/MinchinhamptonSmall.jpg" alt="Minchinhampton War Memorial button">
+                            <img class="img-responsive" src="graphics/memorial_Button/Minchinhampton_Format.jpg" alt="Minchinhampton War Memorial button">
                         </a>
                         <h3>
                             <a href="memorial_Detail.php?Memorial=Minchinhampton">Minchinhampton</a>
@@ -109,7 +109,7 @@
                 <div class="row">
                     <div class="col-md-4 portfolio-item">
                         <a href="memorial_Detail.php?Memorial=Nympsfield">
-                            <img class="img-responsive" src="graphics/memorial_Button/NympsfieldSmall.jpg" alt="Nympsfield War Memorial button">
+                            <img class="img-responsive" src="graphics/memorial_Button/Nympsfield_Format.jpg" alt="Nympsfield War Memorial button">
                         </a>
                         <h3>
                             <a href="memorial_Detail.php?Memorial=Nympsfield">Nympsfield</a>
@@ -118,7 +118,7 @@
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="memorial_Detail.php?Memorial=Rodborough">
-                            <img class="img-responsive" src="graphics/memorial_Button/RodboroughSmall.jpg" alt="Rodborough War Memorial button">
+                            <img class="img-responsive" src="graphics/memorial_Button/Rodborough_Format.jpg" alt="Rodborough War Memorial button">
                         </a>
                         <h3>
                             <a href="memorial_Detail.php?Memorial=Rodborough">Rodborough</a>
@@ -127,7 +127,7 @@
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="memorial_Detail.php?Memorial=Shortwood">
-                            <img class="img-responsive" src="graphics/memorial_Button/ShortwoodSmall.jpg" alt="Shortwood War Memorial button">
+                            <img class="img-responsive" src="graphics/memorial_Button/Shortwood_Format.jpg" alt="Shortwood War Memorial button">
                         </a>
                         <h3>
                             <a href="memorial_Detail.php?Memorial=Shortwood">Shortwood</a>
@@ -140,7 +140,7 @@
                 <div class="row">
                     <div class="col-md-4 portfolio-item">
                         <a href="memorial_Detail.php?Memorial=Woodchester">
-                            <img class="img-responsive" src="graphics/memorial_Button/WoodchesterSmall.jpg" alt="Woodchester War Memorial button">
+                            <img class="img-responsive" src="graphics/memorial_Button/Woodchester_Format.jpg" alt="Woodchester War Memorial button">
                         </a>
                         <h3>
                             <a href="memorial_Detail.php?Memorial=Woodchester">Woodchester</a>
