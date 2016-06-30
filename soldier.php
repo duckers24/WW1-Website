@@ -48,6 +48,7 @@ $Sequence=$_GET['Sequence']
 </head>
 
 <body>
+    <!-- Include for the navigation bar -->
     <?php
     include 'navigation.php';
     ?>
