@@ -28,43 +28,9 @@
     <![endif]-->
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.php">Home</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="during_War.php">During War</a>
-                    </li>
-                    <li>
-                        <a href="after_War.php">After War</a>
-                    </li>
-                    <li>
-                        <a href="memorial.php">Memorial</a>
-                    </li>
-                    <li>
-                        <a href="pictures.php">Pictures</a>
-                    </li>
-                    <li>
-                        <a href="events.php">Events</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+    <?php
+    include 'navigation.php';
+    ?>
 
     <!-- Page Content -->
     <div class="container">
@@ -72,11 +38,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>Home</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
-                <ul class="list-unstyled">
-                    <li>Bootstrap v3.3.6</li>
-                    <li>jQuery v1.11.1</li>
-                </ul>
+                <p class="lead">A website with incformation about the soldiers that died during WW1</p>
             </div>
         </div>
         <!-- /.row -->

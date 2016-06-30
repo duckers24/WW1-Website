@@ -1,6 +1,9 @@
 <?php
 $Memorial=$_GET['Memorial']
 ?>
+<?php
+include 'includes/db.inc.php'
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -61,45 +64,9 @@ $Memorial=$_GET['Memorial']
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.php">Home</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="during_War.php">During War</a>
-                    </li>
-                    <li>
-                        <a href="after_War.php">After War</a>
-                    </li>
-                    <li>
-                        <a href="memorial.php">Memorial</a>
-                    </li>
-                    <li>
-                        <a href="pictures.php">Pictures</a>
-                    </li>
-                    <li>
-                        <a href="events.php">Events</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
+    <?php
+    include 'navigation.php';
+    ?>
     <!-- Page Content -->
     <div class="container">
 
@@ -131,30 +98,42 @@ $Memorial=$_GET['Memorial']
                 }
                 ?>
                 <p class="lead">All of the inforamtion about this memorial</p>
+                <?php
+                // Request the text of soldiers
+                $result = @mysql_query('SELECT Sequence, First_name, Last_name, Rank FROM soldiers WHERE Also_remembered LIKE "%'.$Memorial.'%" ORDER by Last_name');
+                if (!$result) {
+                    exit('<p>Error performing query: ' . mysql_error() . '</p>');
+                }
+                ?>
                 <table class="table">
+                    <tr>
+                        <td>Image</td>
+                        <td>Rank</td>
+                        <td>Fisrt name</td>
+                        <td>Last Name</td>
+                        <td>More Information</td>
+                    </tr>
                     <?php
                     while ($row = mysql_fetch_array($result))
                     {
                         $Photo=$row['Sequence'];
-                        $PHPPath='/Users/william/Documents/ww1 webserver/Graphics/SoldierMemorial/';
+                        $PHPPath='/Users/william/Documents/Development/graphics/soldier_Memorial/';
                         $DataType='.jpg';
-                        $ImagePath='/Graphics/SoldierMemorial/';
-                        $PHPPhotoPath= $PHPPath.$Photo.$DataType;
+                        $ImagePath='/graphics/soldier_Memorial/';
                         $RealPhotoPath = $ImagePath.$Photo.$DataType;
-                        echo '<tr>';
-                        echo '<td>';
+                        echo		'<tr>';
+                        echo        '<td>';
                         if (file_exists($PHPPhotoPath)) {
-                            echo '<img src="'.$RealPhotoPath.'"/>';
-                        } else {
-                            echo        '<img src="Graphics/SoldierMemorial/Head.jpg">';
+                            echo        '<img src="'.$RealPhotoPath.'"/>';
+                        } else { 
+                            echo        '<img src="graphics/soldier_Memorial/Head.jpg">'; 
                         }
-                        echo '</td>';
-                        echo '<td>'. $row['Rank'] .'</td>';
-                        echo '<td>'. $row['First_name'] .'</td>';
-                        echo '<td>'. $row['Last_name'] .'</td>';
-                        echo '<td><span title="More information about this soldier"><a href=soldier.php?Sequence='
-                            . $row['Sequence'] .  '>More Information</a></span</td>';
-                        echo '</tr>';
+                        echo        '</td>';
+                        echo	    '<td>'. $row['Rank'] .'</td>';
+                        echo	    '<td>'. $row['First_name'] .'</td>';
+                        echo	    '<td>'. $row['Last_name'] .'</td>';
+                        echo	    '<td><span title="More information about this soldier"><a href=soldier.php?Sequence='. $row['Sequence'] .  '>More Information</a></span</td>';
+                        echo		'</tr>';  
                     }
                     ?>
                 </table>
