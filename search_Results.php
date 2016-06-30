@@ -15,7 +15,7 @@ include 'includes/db.inc.php'
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Search</title>
+    <title>Search Results</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="includes/css/bootstrap.min.css" rel="stylesheet">
@@ -38,6 +38,7 @@ include 'includes/db.inc.php'
 </head>
 
 <body>
+    <!-- Include for the navigation bar -->
     <?php
     include 'navigation.php';
     ?>

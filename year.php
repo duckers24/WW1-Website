@@ -42,6 +42,7 @@ $year=$_GET['year']
 </head>
 
 <body>
+    <!-- Include for the navigation bar -->
     <?php
     include 'navigation.php';
     ?>

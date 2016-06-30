@@ -40,8 +40,6 @@ include 'includes/db.inc.php'
         echo '<title>Woodchester Wayside Cross</title>';
     }
     ?>
-    
-    <title>Bare - Start Bootstrap Template</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="includes/css/bootstrap.min.css" rel="stylesheet">
@@ -64,6 +62,7 @@ include 'includes/db.inc.php'
 </head>
 
 <body>
+    <!-- Include for the navigation bar -->
     <?php
     include 'navigation.php';
     ?>
