@@ -15,6 +15,7 @@
     <link href="includes/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
+    <link href="includes/css/3-col-portfolio.css" rel="stylesheet">
     <style>
     body {
         padding-top: 70px;
@@ -32,66 +33,154 @@
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.php">Home</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="during_War.php">During War</a>
-                    </li>
-                    <li>
-                        <a href="after_War.php">After War</a>
-                    </li>
-                    <li>
-                        <a href="memorial.php">Memorial</a>
-                    </li>
-                    <li>
-                        <a href="pictures.php">Pictures</a>
-                    </li>
-                    <li>
-                        <a href="events.php">Events</a>
-                    </li>
-                </ul>
-                <div class="col-sm-3 col-md-3 pull-right">
-                    <form class="navbar-form" role="search" method="get" action="search_Results.php">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
-                            <div class="input-group-btn">
-                                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
+    <?php
+    include 'navigation.php';
+    ?>
     <!-- Page Content -->
     <div class="container">
 
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>Pictures</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
-                <ul class="list-unstyled">
-                    <li>Bootstrap v3.3.6</li>
-                    <li>jQuery v1.11.1</li>
+                <p class="lead">Choose from the categories below to see more similar photos</p>
+                <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="#">Project Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="#">Project Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="#">Project Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="#">Project Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="#">Project Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="#">Project Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+        </div>
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="#">Project Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="#">Project Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                </a>
+                <h3>
+                    <a href="#">Project Name</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Pagination -->
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <ul class="pagination">
+                    <li>
+                        <a href="#">&laquo;</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+                    <li>
+                        <a href="#">&raquo;</a>
+                    </li>
                 </ul>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
             </div>
         </div>
         <!-- /.row -->
@@ -101,10 +190,8 @@
 
     <!-- jQuery Version 1.11.1 -->
     <script src="includes/js/jquery.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="includes/js/bootstrap.min.js"></script>
-
 </body>
 
 </html>
