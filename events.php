@@ -32,44 +32,9 @@
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.php">Home</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="during_War.php">During War</a>
-                    </li>
-                    <li>
-                        <a href="after_War.php">After War</a>
-                    </li>
-                    <li>
-                        <a href="memorial.php">Memorial</a>
-                    </li>
-                    <li>
-                        <a href="pictures.php">Pictures</a>
-                    </li>
-                    <li>
-                        <a href="events.php">Events</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+    <?php
+    include 'navigation.php';
+    ?>
 
     <!-- Page Content -->
     <div class="container">
@@ -77,11 +42,11 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>Events</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
-                <ul class="list-unstyled">
-                    <li>Bootstrap v3.3.6</li>
-                    <li>jQuery v1.11.1</li>
-                </ul>
+                <p class="lead">These are the events that happened this month during the war</p>
+                <?php
+                $yearold = date("Y")-100;
+                echo  "<iframe src='https://www.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=j6bts5e6qjvtohuip3v2e8c3r0%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=2qna5f0kb04uf2ut0davckem30%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=Europe%2FLondon&dates=" . $yearold . date("m") . date ("d") . "/" . $yearold . date("m") . date ("d") . "' style=' border-width:0 ' width='800' height='600' frameborder='0' scrolling='no'></iframe>";
+                ?>
             </div>
         </div>
         <!-- /.row -->
