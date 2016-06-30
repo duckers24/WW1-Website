@@ -43,56 +43,122 @@
             <div class="col-lg-12 text-center">
                 <h1>Memorial</h1>
                 <p class="lead">These are all of the memorials within the local area</p>
-                <Table class="table">
-            <tr>
-                <td><span title="All the information about the Amberley Memorial">
-                    <a href='memorial_Detail.php?Memorial=Amberley'>
-                        <img src="graphics/memorial_Button/AmberleySmall.jpg"></a></span></td>
-                <td></td>
-                <td><span title="All the information about the Avening Memorial">
-                    <a href='memorial_Detail.php?Memorial=Avening'>
-                        <img src="graphics/memorial_Button/AveningSmall.jpg"></a></span></td>
-                <td></td>
-                <td><span title="All the information about the Forest Green Memorial">
-                    <a href='memorial_Detail.php?Memorial=Forest'>
-                        <img src="graphics/memorial_Button/ForestGreenSmall.jpg"></a></span></td>    
-            </tr>
-            <tr></tr>
-            <tr>
-                <td><span title="All the information about the Horsley Memorial">
-                    <a href='memorial_Detail.php?Memorial=Horsley'>
-                        <img src="graphics/memorial_Button/HorsleySmall.jpg"></a></span></td>
-                <td></td>
-                <td><span title="All the information about the Minchinhampton Memorial">
-                    <a href='memorial_Detail.php?Memorial=Minchinhampton'>
-                        <img src="graphics/memorial_Button/MinchinhamptonSmall.jpg"></a></span></td>
-                <td></td>
-                <td><span title="All the information about the Nympsfield Memorial">
-                    <a href='memorial_Detail.php?Memorial=Nympsfield'>
-                        <img src="graphics/memorial_Button/NympsfieldSmall.jpg"></a></span></td>    
-            </tr>
-            <tr></tr>
-            <tr>
-                <td><span title="All the information about the Rodborough Memorial">
-                    <a href='memorial_Detail.php?Memorial=Rodborough'>
-                        <img src="graphics/memorial_Button/RodboroughSmall.jpg"></a></span></td>
-                <td></td>
-                <td><span title="All the information about the Shortwood Memorial">
-                    <a href='memorial_Detail.php?Memorial=Shortwood'>
-                        <img src="graphics/memorial_Button/ShortwoodSmall.jpg"></a></span></td>
-                <td></td>
-                <td><span title="All the information about the Gloters Memorial">
-                    <a href='memorial_Detail.php?Memorial=Gloters'>
-                        <img src="graphics/memorial_Button/GlotersSmall.jpg"></a></span></td>    
-            </tr>
-            <tr></tr>
-            <tr>
-                <td><span title="All the information about the Woodchester Memorial">
-                    <a href='memorial_Detail.php?Memorial=Wodchester'>
-                        <img src="graphics/memorial_Button/WoodchesterSmall.jpg"></a></span></td>
-            </tr>
-            <tr></tr>
-        </Table>
+                <!-- Projects Row -->
+                <div class="row">
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#">
+                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        </a>
+                        <h3>
+                            <a href="#">Amberley</a>
+                        </h3>
+                        <p>Please click here to see more information about the Amberley War Memorial.</p>
+                    </div>
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#">
+                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        </a>
+                        <h3>
+                            <a href="#">Avening</a>
+                        </h3>
+                        <p>Please click here to see more information about the Avening War Memorial.</p>
+                    </div>
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#">
+                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        </a>
+                        <h3>
+                            <a href="#">Forest Green</a>
+                        </h3>
+                        <p>Please click here to see more inforamtion about the Forest Green War Memorial.</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+                <!-- Projects Row -->
+                <div class="row">
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#">
+                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        </a>
+                        <h3>
+                            <a href="#">Gloters</a>
+                        </h3>
+                        <p>Please click here to see more information about the Gloters War Memorial.</p>
+                    </div>
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#">
+                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        </a>
+                        <h3>
+                            <a href="#">Horsley</a>
+                        </h3>
+                        <p>Please click here to see more inforamtion about the Horsley War Memorial.</p>
+                    </div>
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#">
+                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        </a>
+                        <h3>
+                            <a href="#">Minchinhampton</a>
+                        </h3>
+                        <p>Please click here to see more inforamtion about the Minchinhampton War Memorial.</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+                <!-- Projects Row -->
+                <div class="row">
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#">
+                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        </a>
+                        <h3>
+                            <a href="#">Nympsfield</a>
+                        </h3>
+                        <p>Please click here to see more inforamtion about the Nympsfield War Memorial.</p>
+                    </div>
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#">
+                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        </a>
+                        <h3>
+                            <a href="#">Rodborough</a>
+                        </h3>
+                        <p>Please click here to see more information about the Rodborough War Memorial.</p>
+                    </div>
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#">
+                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        </a>
+                        <h3>
+                            <a href="#">Shortwood</a>
+                        </h3>
+                        <p>Please click here to see more information about the Shortwood War Memorial.</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+                <!-- Projects Row -->
+                <div class="row">
+                    <div class="col-md-4 portfolio-item">
+                        <a href="#">
+                            <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+                        </a>
+                        <h3>
+                            <a href="#">Woodchester</a>
+                        </h3>
+                        <p>Please click here to see more information about the Woodchester War Memorial.</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+        <hr>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
             </div>
         </div>
         <!-- /.row -->
