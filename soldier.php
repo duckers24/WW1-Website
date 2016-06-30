@@ -164,10 +164,10 @@ $Sequence=$_GET['Sequence']
                                     echo        '<img src="graphics/soldier_Memorial/Head.jpg" alt="Placeholder" class="img-responsive" />';
                                 }
                             echo '</div>';
-                            echo '</section>';
-                            }
-                            ?>
-                    </div>
+                echo '</section>';
+                }
+                ?>
+            </div>
         </div>
         <!-- /.row -->
 
