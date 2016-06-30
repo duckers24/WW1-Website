@@ -46,7 +46,7 @@
         <div class="row">
             <div class="col-md-4 portfolio-item">
                 <a href="year.php?year=1919">
-                    <img class="img-responsive" src="graphics/after_War/1919Small.jpg" alt="1919 Newspaper Heading">
+                    <img class="img-responsive" src="graphics/after_War/1919_Format.jpg" alt="1919 Newspaper Heading">
                 </a>
                 <h3>
                     <a href="year.php?year=1919">1919</a>
@@ -55,7 +55,7 @@
             </div>
             <div class="col-md-4 portfolio-item">
                 <a href="year.php?year=1920">
-                    <img class="img-responsive" src="graphics/after_War/1920Small.jpg" alt="1920 Newspaper Heading">
+                    <img class="img-responsive" src="graphics/after_War/1920_Format.jpg" alt="1920 Newspaper Heading">
                 </a>
                 <h3>
                     <a href="year.php?year=1920">1920</a>
@@ -64,7 +64,7 @@
             </div>
             <div class="col-md-4 portfolio-item">
                 <a href="year.php?year=1928">
-                    <img class="img-responsive" src="graphics/after_War/1928Small.jpg" alt="1928 Newspaper Heading">
+                    <img class="img-responsive" src="graphics/after_War/1928_Format.jpg" alt="1928 Newspaper Heading">
                 </a>
                 <h3>
                     <a href="year.php?year=1928">1928</a>
