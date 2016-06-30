@@ -12,11 +12,18 @@ $year=$_GET['year']
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Bare - Start Bootstrap Template</title>
+    <?php
+    echo '<title>'. $year .'</title>';
+    ?>
 
     <!-- Bootstrap Core CSS -->
     <link href="includes/css/bootstrap.min.css" rel="stylesheet">
-
+    
+    <!-- Include for the database connection -->
+    <?php
+    include 'includes/db.inc.php'
+    ?>
+    
     <!-- Custom CSS -->
     <style>
     body {
@@ -35,52 +42,18 @@ $year=$_GET['year']
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.php">Home</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="during_War.php">During War</a>
-                    </li>
-                    <li>
-                        <a href="after_War.php">After War</a>
-                    </li>
-                    <li>
-                        <a href="memorial.php">Memorial</a>
-                    </li>
-                    <li>
-                        <a href="pictures.php">Pictures</a>
-                    </li>
-                    <li>
-                        <a href="events.php">Events</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
+    <?php
+    include 'navigation.php';
+    ?>
     <!-- Page Content -->
     <div class="container">
 
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1>A Bootstrap Starter Template</h1>
-                <p class="lead">Complete with pre-defined file paths that you won't have to change!</p>
+                <?php
+                echo '<h1>'. $year .'</h1>';
+                ?>
+                <p class="lead">The table below shows all of the soldiers that lost their lives during this year</p>
                 <?php
                 // Request the text of soldiers
                 $result = @mysql_query('SELECT Sequence, First_name, Last_name FROM soldiers WHERE Year_of_death = "'
@@ -89,7 +62,7 @@ $year=$_GET['year']
                     exit('<p>Error performing query: ' . mysql_error() . '</p>');
                 }
                 ?>
-                <table>
+                <table class="table">
                     <tr>
                         <td>Fisrt name</td><td>Last Name</td><td>Link to Soldier</td>
                     </tr>
