@@ -107,7 +107,7 @@ $Sequence=$_GET['Sequence']
             <div class="col-lg-12 text-center">
                 <?php
                 echo '<section id="about">';
-                    echo '<div class="col-md-4 col-md-push-2">';
+                    echo '<div class="col-md-3 col-md-push-2">';
                         echo '<ul class="about-data">';
                             // Request the text of soldiers
                             $result = @mysql_query('SELECT Sequence, First_name, Last_name, Middle_names, Number, Rank, Regiment, Awards, Year_born, How_died, Where_died, Where_buried, Where_commemorated, Birthplace, Date_of_death, Approx_age FROM soldiers WHERE Sequence = "'.$Sequence.'" ORDER by Last_name');
