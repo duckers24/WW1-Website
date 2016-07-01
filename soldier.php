@@ -31,6 +31,7 @@ $Sequence=$_GET['Sequence']
     <link href="includes/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
+    <link href="includes/css/font-awesome.min.css" rel="stylesheet">
     <link href="includes/css/overwrite.css" rel="stylesheet">
     <link href="includes/css/style.css" rel="stylesheet">
     <style>
