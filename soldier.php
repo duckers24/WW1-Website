@@ -162,7 +162,7 @@ $Sequence=$_GET['Sequence']
                                 if (file_exists($PHPPhotoPath)) {
                                     echo '<img src="graphics/soldier/'. $row['Sequence'] .'.jpg" alt="Soldiers Head" class="img-responsive" />';
                                 } else {
-                                    echo        '<img src="graphics/soldier_Memorial/Head.jpg" alt="Placeholder" class="img-responsive" />';
+                                    echo '<img src="graphics/soldier_Memorial/Head.jpg" alt="Placeholder" class="img-responsive" />';
                                 }
                             echo '</div>';
                 echo '</section>';
