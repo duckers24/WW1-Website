@@ -107,9 +107,7 @@ $Sequence=$_GET['Sequence']
             <div class="col-lg-12 text-center">
                 <?php
                 echo '<section id="about">';
-                    echo '<div class="col-md-3 col-md-push-2">';
-                        echo '<ul class="about-data">';
-                            // Request the text of soldiers
+                // Request the text of soldiers
                             $result = @mysql_query('SELECT Sequence, First_name, Last_name, Middle_names, Number, Rank, Regiment, Awards, Year_born, How_died, Where_died, Where_buried, Where_commemorated, Birthplace, Date_of_death, Approx_age FROM soldiers WHERE Sequence = "'.$Sequence.'" ORDER by Last_name');
                             if (!$result) {
                                 exit('<p>Error performing query: ' . mysql_error() . '</p>');
@@ -121,6 +119,15 @@ $Sequence=$_GET['Sequence']
                                 $ImagePath='/graphics/soldier_Memorial/';
                                 $PHPPhotoPath= $PHPPath.$Photo.$DataType;
                                 $RealPhotoPath = $ImagePath.$Photo.$DataType;
+                echo '<div class="col-md-6 col-md-push-2">';
+                                if (file_exists($PHPPhotoPath)) {
+                                    echo '<img src="graphics/soldier/'. $row['Sequence'] .'.jpg" alt="Soldiers Head" class="img-responsive" />';
+                                } else {
+                                    echo '<img src="graphics/soldier_Memorial/Head.jpg" alt="Placeholder" class="img-responsive" />';
+                                }
+                            echo '</div>';
+                    echo '<div class="col-md-6 col-md-push-2">';
+                        echo '<ul class="about-data">';
                                 echo '<li>';
                                     echo '<div class="inner-abcoin"><i class="fa fa-user"></i></div>';
                                     echo '<label>Name</label>';
@@ -157,13 +164,6 @@ $Sequence=$_GET['Sequence']
                                     echo '<hr>';
                                 echo '</li>';
                                 echo '</ul>';
-                            echo '</div>';
-                            echo '<div class="col-md-6 col-md-push-2">';
-                                if (file_exists($PHPPhotoPath)) {
-                                    echo '<img src="graphics/soldier/'. $row['Sequence'] .'.jpg" alt="Soldiers Head" class="img-responsive" />';
-                                } else {
-                                    echo '<img src="graphics/soldier_Memorial/Head.jpg" alt="Placeholder" class="img-responsive" />';
-                                }
                             echo '</div>';
                 echo '</section>';
                 }
