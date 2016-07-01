@@ -136,14 +136,14 @@ $Sequence=$_GET['Sequence']
                                     echo '<hr>';
                                 echo '</li>';
                                 echo '<li>';
-                                    echo '<div class="inner-abcoin"><i class="fa fa-calendar"></i></div>';
+                                    echo '<div class="inner-abcoin"><i class="fa fa-map-marker"></i></div>';
                                     echo '<label>Birthplace</label>';
                                     echo '<span class="value">'. $row['Birthplace'] .'</span>';
                                     echo '<div class="clear"></div>';
                                     echo '<hr>';
                                 echo '</li>';
                                 echo '<li>';
-                                    echo '<div class="inner-abcoin"><i class="fa fa-map-marker"></i></div>';
+                                    echo '<div class="inner-abcoin"><i class="fa fa-calendar"></i></div>';
                                     echo '<label>Date of Death</label>';
                                     echo '<span class="value">'. $row['Date_of_death'] .'</span>';
                                     echo '<div class="clear"></div>';
@@ -180,7 +180,7 @@ $Sequence=$_GET['Sequence']
 
     <!-- Bootstrap Core JavaScript -->
     <script src="includes/js/bootstrap.min.js"></script>
-
+    
 </body>
 
 </html>
