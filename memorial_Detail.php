@@ -117,7 +117,7 @@ include 'includes/db.inc.php'
                     while ($row = mysql_fetch_array($result))
                     {
                         $Photo=$row['Sequence'];
-                        $PHPPath='/Users/william/Documents/Development/graphics/soldier_Memorial/';
+                        $PHPPath='/Users/William/Documents/Development/WW1-Website/graphics/soldier_Memorial/';
                         $DataType='.jpg';
                         $ImagePath='/graphics/soldier_Memorial/';
                         $RealPhotoPath = $ImagePath.$Photo.$DataType;
