@@ -170,8 +170,8 @@ $Sequence=$_GET['Sequence']
                 ?>
             </div>
         </div>
-        <!-- /.row -->
-
+        <!-- /.row -->									
+	</section>
     </div>
     <!-- /.container -->
 
@@ -189,3 +189,4 @@ $Sequence=$_GET['Sequence']
 </body>
 
 </html>
+
