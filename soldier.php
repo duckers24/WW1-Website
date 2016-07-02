@@ -33,6 +33,7 @@ $Sequence=$_GET['Sequence']
     <link href="includes/css/font-awesome.min.css" rel="stylesheet">
     <link href="includes/css/overwrite.css" rel="stylesheet">
     <link href="includes/css/style.css" rel="stylesheet">
+    
     <style>
     body {
         padding-top: 70px;
