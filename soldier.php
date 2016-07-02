@@ -114,7 +114,7 @@ $Sequence=$_GET['Sequence']
                             }
                             while ($row = mysql_fetch_array($result)) {
                                 $Photo=$row['Sequence'];
-                                $PHPPath='/Users/William/Documents/Development/WW1-Website/graphics/soldier_Memorial/';
+                                $PHPPath='/Users/william/Documents/Development/WW1-Website/graphics/soldier_Memorial/';
                                 $DataType='.jpg';
                                 $ImagePath='/graphics/soldier_Memorial/';
                                 $PHPPhotoPath= $PHPPath.$Photo.$DataType;
