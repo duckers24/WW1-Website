@@ -16,16 +16,15 @@ $Sequence=$_GET['Sequence']
     <meta name="author" content="">
 
     <?php
-        // Request the text of soldiers
+    // Request the text of soldiers
     $result = @mysql_query('SELECT Sequence, First_name, Last_name, Number, Rank, Regiment, Awards, Year_born, How_died, Where_died, Where_buried, Where_commemorated, Birthplace FROM soldiers WHERE Sequence = "'.$Sequence.'" ORDER by Last_name');
     if (!$result) {
         exit('<p>Error performing query: ' . mysql_error() . '</p>');
     }
-    while ($Name = mysql_fetch_array($result))
-        {
-            echo '<title>'. $Name['First_name'] . " " . $Name['Last_name'] .'</title>';
-        }
-                ?>
+    while ($Name = mysql_fetch_array($result)) {
+        echo '<title>'. $Name['First_name'] . " " . $Name['Last_name'] .'</title>';
+    }
+    ?>
     
     <!-- Bootstrap Core CSS -->
     <link href="includes/css/bootstrap.min.css" rel="stylesheet">
