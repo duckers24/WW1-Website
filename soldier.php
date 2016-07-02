@@ -119,14 +119,14 @@ $Sequence=$_GET['Sequence']
                                 $ImagePath='/graphics/soldier_Memorial/';
                                 $PHPPhotoPath= $PHPPath.$Photo.$DataType;
                                 $RealPhotoPath = $ImagePath.$Photo.$DataType;
-                echo '<div class="col-md-6 col-md-push-2">';
+                echo '<div class="col-md-6 col-md-push-0">';
                                 if (file_exists($PHPPhotoPath)) {
                                     echo '<img src="graphics/soldier/'. $row['Sequence'] .'.jpg" alt="Soldiers Head" class="img-responsive" />';
                                 } else {
                                     echo '<img src="graphics/soldier_Memorial/Head.jpg" alt="Placeholder" class="img-responsive" />';
                                 }
                             echo '</div>';
-                    echo '<div class="col-md-6 col-md-push-2">';
+                    echo '<div class="col-md-6 col-md-push-0">';
                         echo '<ul class="about-data">';
                                 echo '<li>';
                                     echo '<div class="inner-abcoin"><i class="fa fa-user"></i></div>';
