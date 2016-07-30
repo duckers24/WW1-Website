@@ -48,7 +48,7 @@
                 <div class="row">
                     <div class="col-md-4 portfolio-item">
                         <a href="year.php?year=1914">
-                            <img class="img-responsive" src="graphics/during_War/1914Small.jpg" alt="1914 Newspaper Heading">
+                            <img class="img-responsive" src="graphics/during_War/1914_Format.jpg" alt="1914 Newspaper Heading">
                         </a>
                         <h3>
                             <a href="year.php?year=1914">1914</a>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="year.php?year=1915">
-                            <img class="img-responsive" src="graphics/during_War/1915Small.jpg" alt="1915 Newspaper Heading">
+                            <img class="img-responsive" src="graphics/during_War/1915_Format.jpg" alt="1915 Newspaper Heading">
                         </a>
                         <h3>
                             <a href="year.php?year=1915">1915</a>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="year.php?year=1916">
-                            <img class="img-responsive" src="graphics/during_War/1916Small.jpg" alt="1916 Newspaper Heading">
+                            <img class="img-responsive" src="graphics/during_War/1916_Format.jpg" alt="1916 Newspaper Heading">
                         </a>
                         <h3>
                             <a href="year.php?year=1916">1916</a>
@@ -79,7 +79,7 @@
                 <div class="row">
                     <div class="col-md-4 portfolio-item">
                         <a href="year.php?year=1917">
-                            <img class="img-responsive" src="graphics/during_War/1917Small.jpg" alt="1917 Newspaper Heading">
+                            <img class="img-responsive" src="graphics/during_War/1917_Format.jpg" alt="1917 Newspaper Heading">
                         </a>
                         <h3>
                             <a href="year.php?year=1917">1917</a>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="col-md-4 portfolio-item">
                         <a href="year.php?year=1918">
-                            <img class="img-responsive" src="graphics/during_War/1918Small.jpg" alt="1918 Newspaper Heading">
+                            <img class="img-responsive" src="graphics/during_War/1918_Format.jpg" alt="1918 Newspaper Heading">
                         </a>
                         <h3>
                             <a href="year.php?year=1918">1918</a>
