@@ -7,7 +7,7 @@
   }
 
   // Select the database
-  if (!@mysql_select_db('ww1')) {
+  if (!@mysql_select_db('nailswor_ww1')) {
 //  if (!@mysql_select_db('baltinailsworth')) {
     exit('<p>Unable to locate the ' .
         'database at this time.</p>');

@@ -43,7 +43,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>During the War</h1>
-                <p class="lead">Please select a year to see the soldiers that lost their lives</p>
+                <p class="lead">Please select a year to see the Nailsworth soldiers that lost their lives</p>
                 <!-- Projects Row -->
                 <div class="row">
                     <div class="col-md-4 portfolio-item">
