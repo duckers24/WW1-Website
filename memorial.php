@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Memorial</title>
+    <title>Memorials</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="includes/css/bootstrap.min.css" rel="stylesheet">
@@ -42,7 +42,7 @@
 
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1>Memorial</h1>
+                <h1>Memorials</h1>
                 <p class="lead">These are all of the memorials within the local area</p>
                 <!-- Projects Row -->
                 <div class="row">
