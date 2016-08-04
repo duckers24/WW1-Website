@@ -34,7 +34,7 @@
             </li>
         </ul>
     </li>
-        <li><a href="Memorial.php">Memorial</a>
+        <li><a href="Memorials.php">Memorial</a>
         <ul class="sub-menu">
             <li>
                 <li><span title="Amberly War Memorial"><a href='memorial_Page.php?Memorial=Amberley'>Amberley War Memorial</a></span></li>
