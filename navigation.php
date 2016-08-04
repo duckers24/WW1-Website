@@ -23,7 +23,7 @@
                         <a href="after_War.php">After War</a>
                     </li>
                     <li>
-                        <a href="memorials.php">Memorial</a>
+                        <a href="memorial.php">Memorials</a>
                     </li>
                     <li>
                         <a href="pictures.php">Pictures</a>
