@@ -21,7 +21,9 @@ $year=$_GET['year']
     
     <!-- Include for the database connection -->
     <?php
-    include 'includes/db.inc.php'
+//	echo 'include next..';
+    include 'includes/db.inc.php';
+//    echo 'include worked';
     ?>
     
     <!-- Custom CSS -->
@@ -57,7 +59,9 @@ $year=$_GET['year']
                 <p class="lead">The table below shows all of the soldiers that lost their lives during this year</p>
                 <?php
                 // Request the text of soldiers
-                $result = @mysql_query('SELECT Sequence, First_name, Last_name FROM soldiers WHERE Year_of_death = "'
+                $sql = "SELECT * FROM soldiers";
+				$result = $dbcnx->query($sql);
+               // $result = @mysql_query('SELECT Sequence, First_name, Last_name FROM soldiers WHERE Year_of_death = "'
                                        .$year.'" ORDER by Last_name');
                 if (!$result) {
                     exit('<p>Error performing query: ' . mysql_error() . '</p>');
