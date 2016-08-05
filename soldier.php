@@ -69,16 +69,16 @@ $Sequence=$_GET['Sequence']
                             }
                             while ($row = mysql_fetch_array($result)) {
                                 $Photo=$row['Sequence'];
-                                $PHPPath='/Users/william/Documents/Development/WW1-Website/graphics/soldier_Memorial/';
+                                $PHPPath='/Users/william/Documents/Development/WW1-Website/graphics/soldier/';
                                 $DataType='.jpg';
-                                $ImagePath='/graphics/soldier_Memorial/';
+                                $ImagePath='/graphics/soldier/';
                                 $PHPPhotoPath= $PHPPath.$Photo.$DataType;
                                 $RealPhotoPath = $ImagePath.$Photo.$DataType;
                 echo '<div class="col-md-6 col-md-push-0">';
                                 if (file_exists($PHPPhotoPath)) {
                                     echo '<img src="graphics/soldier/'. $row['Sequence'] .'.jpg" alt="Soldiers Head" class="img-responsive" />';
                                 } else {
-                                    echo '<img src="graphics/soldier_Memorial/Head.jpg" alt="Placeholder" class="img-responsive" />';
+                                    echo '<img src="graphics/soldier/Head.jpg" alt="Placeholder" class="img-responsive" />';
                                 }
                             echo '</div>';
                     echo '<div class="col-md-6 col-md-push-0">';
