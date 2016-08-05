@@ -116,16 +116,16 @@ include 'includes/db.inc.php'
                     while ($row = mysql_fetch_array($result))
                     {
                         $Photo=$row['Sequence'];
-                        $PHPPath='/Users/William/Documents/Development/WW1-Website/graphics/soldier_Memorial/';
+                        $PHPPath='/Users/William/Documents/Development/WW1-Website/graphics/soldier/';
                         $DataType='.jpg';
-                        $ImagePath='/graphics/soldier_Memorial/';
+                        $ImagePath='/graphics/soldier/';
                         $RealPhotoPath = $ImagePath.$Photo.$DataType;
                         echo		'<tr>';
                         echo        '<td>';
                         if (file_exists($PHPPhotoPath)) {
                             echo        '<img src="'.$RealPhotoPath.'"/>';
                         } else { 
-                            echo        '<img src="graphics/soldier_Memorial/Head.jpg">'; 
+                            echo        '<img src="graphics/soldier/Head.jpg">'; 
                         }
                         echo        '</td>';
                         echo	    '<td>'. $row['Rank'] .'</td>';
